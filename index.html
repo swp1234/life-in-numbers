@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="max-image-preview:large">
+
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3600813755953882" crossorigin="anonymous"></script>
+
+  <title data-i18n="meta.title">Your Life in Numbers - DopaBrain</title>
+  <meta name="description" data-i18n="meta.description" content="Enter your birthday and discover your life in fascinating numbers - heartbeats, breaths, steps, dreams, and more!">
+  <meta name="keywords" content="life in numbers, birthday calculator, life statistics, heartbeats counter, life calculator, dopabrain">
+
+  <link rel="canonical" href="https://dopabrain.com/life-in-numbers/">
+  <meta name="theme-color" content="#00E5FF">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon-192.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-192.svg">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LHESQNEY5E"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-LHESQNEY5E');</script>
+
+  <meta property="og:title" content="Your Life in Numbers - DopaBrain">
+  <meta property="og:description" content="How many times has your heart beaten? How many breaths have you taken? Find out!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dopabrain.com/life-in-numbers/">
+  <meta property="og:image" content="https://dopabrain.com/life-in-numbers/og-image.png">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="fr_FR">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Your Life in Numbers - DopaBrain">
+  <meta name="twitter:description" content="How many times has your heart beaten? How many breaths have you taken? Find out!">
+  <meta name="twitter:image" content="https://dopabrain.com/life-in-numbers/og-image.png">
+
+  <link rel="alternate" hreflang="ko" href="https://dopabrain.com/life-in-numbers/">
+  <link rel="alternate" hreflang="en" href="https://dopabrain.com/life-in-numbers/">
+  <link rel="alternate" hreflang="ja" href="https://dopabrain.com/life-in-numbers/">
+  <link rel="alternate" hreflang="zh" href="https://dopabrain.com/life-in-numbers/">
+  <link rel="alternate" hreflang="hi" href="https://dopabrain.com/life-in-numbers/">
+  <link rel="alternate" hreflang="ru" href="https://dopabrain.com/life-in-numbers/">
+  <link rel="alternate" hreflang="es" href="https://dopabrain.com/life-in-numbers/">
+  <link rel="alternate" hreflang="pt" href="https://dopabrain.com/life-in-numbers/">
+  <link rel="alternate" hreflang="id" href="https://dopabrain.com/life-in-numbers/">
+  <link rel="alternate" hreflang="tr" href="https://dopabrain.com/life-in-numbers/">
+  <link rel="alternate" hreflang="de" href="https://dopabrain.com/life-in-numbers/">
+  <link rel="alternate" hreflang="fr" href="https://dopabrain.com/life-in-numbers/">
+  <link rel="alternate" hreflang="x-default" href="https://dopabrain.com/life-in-numbers/">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Your Life in Numbers",
+    "url": "https://dopabrain.com/life-in-numbers/",
+    "description": "Enter your birthday and discover your life in fascinating numbers - heartbeats, breaths, steps, dreams, and more!",
+    "applicationCategory": "EntertainmentApplication",
+    "operatingSystem": "Any",
+    "offers": { "@type": "Offer", "price": "0" }
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link" data-i18n="a11y.skipToContent">Skip to content</a>
+
+  <div id="app-loader" class="app-loader">
+    <div class="loader-spinner"></div>
+    <p data-i18n="loader.loading">Loading...</p>
+  </div>
+
+  <canvas id="stars-canvas"></canvas>
+
+  <main id="main-content">
+    <div class="container">
+      <!-- Input Screen -->
+      <section id="input-screen" class="screen active">
+        <div class="hero">
+          <div class="hero-icon">&#x1F30C;</div>
+          <h1 data-i18n="app.title">Your Life in Numbers</h1>
+          <p class="subtitle" data-i18n="app.subtitle">Enter your birthday to discover your life in fascinating numbers</p>
+        </div>
+
+        <div class="card input-card">
+          <label for="birthday" class="input-label" data-i18n="app.birthdayLabel">Date of Birth</label>
+          <input type="date" id="birthday" class="date-input" max="" required>
+          <button id="calculate-btn" class="btn btn-primary" data-i18n="app.calculate">See My Numbers</button>
+        </div>
+      </section>
+
+      <!-- Result Screen -->
+      <section id="result-screen" class="screen">
+        <div class="result-header">
+          <h2 data-i18n="result.title">Your Life So Far</h2>
+          <p id="age-summary" class="age-summary"></p>
+        </div>
+
+        <div id="stats-grid" class="stats-grid"></div>
+
+        <div class="disclaimer card" data-i18n="result.disclaimer">These are approximate estimates based on averages. Just for fun!</div>
+
+        <!-- Share Section -->
+        <div class="share-section">
+          <h3 data-i18n="share.title">Share Your Results</h3>
+          <div class="share-buttons">
+            <button class="share-btn kakao" id="share-kakao" aria-label="KakaoTalk">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 3C6.48 3 2 6.58 2 10.9c0 2.78 1.86 5.21 4.65 6.6l-1.18 4.33c-.1.37.33.66.65.44l5.19-3.42c.23.02.45.05.69.05 5.52 0 10-3.58 10-7.9S17.52 3 12 3z"/></svg>
+              <span>KakaoTalk</span>
+            </button>
+            <button class="share-btn twitter" id="share-twitter" aria-label="X/Twitter">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              <span>X</span>
+            </button>
+            <button class="share-btn facebook" id="share-facebook" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              <span>Facebook</span>
+            </button>
+            <button class="share-btn copy-link" id="share-copy" aria-label="Copy Link">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+              <span data-i18n="share.copyLink">Copy Link</span>
+            </button>
+          </div>
+        </div>
+
+        <button id="retry-btn" class="btn btn-secondary" data-i18n="result.retry">Try Again</button>
+      </section>
+    </div>
+  </main>
+
+  <script src="/portal/js/cross-promo.js" defer></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').catch(() => {});
+    }
+  </script>
+</body>
+</html>

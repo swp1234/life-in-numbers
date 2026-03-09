@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "你的生命数字 - DopaBrain",
+    "description": "输入你的生日，用数字发现你的生活 - 心跳、呼吸、步数等等！"
+  },
+  "a11y": {
+    "skipToContent": "跳到正文"
+  },
+  "loader": {
+    "loading": "加载中..."
+  },
+  "app": {
+    "title": "你的生命数字",
+    "subtitle": "输入你的生日，用迷人的数字发现你的生活",
+    "birthdayLabel": "出生日期",
+    "calculate": "查看我的数字"
+  },
+  "result": {
+    "title": "你至今的人生",
+    "ageSummary": "{years}年，{days}天",
+    "retry": "再试一次",
+    "disclaimer": "这些是基于平均值的大致估算。仅供娱乐！"
+  },
+  "stats": {
+    "daysAlive": "活过的天数",
+    "hoursAlive": "活过的小时",
+    "minutesAlive": "活过的分钟",
+    "heartbeats": "心跳次数",
+    "breaths": "呼吸次数",
+    "sleepHours": "睡眠时间",
+    "meals": "用餐次数",
+    "steps": "走过的步数",
+    "dreams": "做梦次数",
+    "laughs": "笑过的次数",
+    "moonCycles": "月亮周期",
+    "earthDistance": "地球公转距离",
+    "seasons": "经历的季节",
+    "nextBirthday": "距下次生日"
+  },
+  "share": {
+    "title": "分享结果",
+    "copyLink": "复制链接",
+    "copied": "已复制！",
+    "text": "我的生命数字",
+    "cta": "查看你的！"
+  }
+}

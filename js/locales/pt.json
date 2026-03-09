@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Sua vida em numeros - DopaBrain",
+    "description": "Digite sua data de nascimento e descubra sua vida em numeros fascinantes - batimentos, respiracoes, passos e mais!"
+  },
+  "a11y": {
+    "skipToContent": "Pular para o conteudo"
+  },
+  "loader": {
+    "loading": "Carregando..."
+  },
+  "app": {
+    "title": "Sua vida em numeros",
+    "subtitle": "Digite sua data de nascimento para descobrir sua vida em numeros fascinantes",
+    "birthdayLabel": "Data de nascimento",
+    "calculate": "Ver meus numeros"
+  },
+  "result": {
+    "title": "Sua vida ate agora",
+    "ageSummary": "{years} anos, {days} dias",
+    "retry": "Tentar novamente",
+    "disclaimer": "Estas sao estimativas aproximadas baseadas em medias. Apenas por diversao!"
+  },
+  "stats": {
+    "daysAlive": "Dias vividos",
+    "hoursAlive": "Horas vividas",
+    "minutesAlive": "Minutos vividos",
+    "heartbeats": "Batimentos cardiacos",
+    "breaths": "Respiracoes",
+    "sleepHours": "Horas dormidas",
+    "meals": "Refeicoes",
+    "steps": "Passos dados",
+    "dreams": "Sonhos",
+    "laughs": "Vezes que riu",
+    "moonCycles": "Ciclos lunares",
+    "earthDistance": "Distancia terrestre",
+    "seasons": "Estacoes",
+    "nextBirthday": "Dias ate o aniversario"
+  },
+  "share": {
+    "title": "Compartilhar resultados",
+    "copyLink": "Copiar link",
+    "copied": "Copiado!",
+    "text": "Minha vida em numeros",
+    "cta": "Descubra a sua!"
+  }
+}

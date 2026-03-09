@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Hayatin Rakamlarla - DopaBrain",
+    "description": "Dogum tarihini gir ve hayatini etkileyici rakamlarla kesfet - kalp atislari, nefesler, adimlar ve daha fazlasi!"
+  },
+  "a11y": {
+    "skipToContent": "Icerige atla"
+  },
+  "loader": {
+    "loading": "Yukleniyor..."
+  },
+  "app": {
+    "title": "Hayatin Rakamlarla",
+    "subtitle": "Dogum tarihini girerek hayatini etkileyici rakamlarla kesfet",
+    "birthdayLabel": "Dogum Tarihi",
+    "calculate": "Rakamlarimi Gor"
+  },
+  "result": {
+    "title": "Simdiye Kadar Hayatin",
+    "ageSummary": "{years} yil, {days} gun",
+    "retry": "Tekrar Dene",
+    "disclaimer": "Bunlar ortalamalara dayali yaklasik tahminlerdir. Sadece eglence icin!"
+  },
+  "stats": {
+    "daysAlive": "Yasanan gunler",
+    "hoursAlive": "Yasanan saatler",
+    "minutesAlive": "Yasanan dakikalar",
+    "heartbeats": "Kalp atislari",
+    "breaths": "Alinan nefesler",
+    "sleepHours": "Uyunan saatler",
+    "meals": "Yenen ogunler",
+    "steps": "Atilan adimlar",
+    "dreams": "Gorulen ruyalar",
+    "laughs": "Gulme sayisi",
+    "moonCycles": "Ay dongusu",
+    "earthDistance": "Dunya yolculuk mesafesi",
+    "seasons": "Mevsim degisimi",
+    "nextBirthday": "Dogum gunune kalan"
+  },
+  "share": {
+    "title": "Sonuclari Paylas",
+    "copyLink": "Linki Kopyala",
+    "copied": "Kopyalandi!",
+    "text": "Hayatim rakamlarla",
+    "cta": "Seninkini kontrol et!"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "あなたの人生を数字で - DopaBrain",
+    "description": "誕生日を入力して、人生を数字で発見しよう - 心拍数、呼吸、歩数など！"
+  },
+  "a11y": {
+    "skipToContent": "本文へスキップ"
+  },
+  "loader": {
+    "loading": "読み込み中..."
+  },
+  "app": {
+    "title": "あなたの人生を数字で",
+    "subtitle": "誕生日を入力して、人生を魅力的な数字で発見しましょう",
+    "birthdayLabel": "生年月日",
+    "calculate": "数字を見る"
+  },
+  "result": {
+    "title": "これまでのあなたの人生",
+    "ageSummary": "{years}年、{days}日",
+    "retry": "もう一度",
+    "disclaimer": "これらは平均値に基づく概算です。お楽しみ用です！"
+  },
+  "stats": {
+    "daysAlive": "生きた日数",
+    "hoursAlive": "生きた時間",
+    "minutesAlive": "生きた分数",
+    "heartbeats": "心拍数",
+    "breaths": "呼吸回数",
+    "sleepHours": "睡眠時間",
+    "meals": "食事回数",
+    "steps": "歩いた歩数",
+    "dreams": "夢の回数",
+    "laughs": "笑った回数",
+    "moonCycles": "月の周期",
+    "earthDistance": "地球公転距離",
+    "seasons": "季節の変化",
+    "nextBirthday": "次の誕生日まで"
+  },
+  "share": {
+    "title": "結果をシェア",
+    "copyLink": "リンクコピー",
+    "copied": "コピーしました！",
+    "text": "私の人生を数字で見ると",
+    "cta": "あなたも確認してみて！"
+  }
+}

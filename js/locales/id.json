@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Hidupmu dalam Angka - DopaBrain",
+    "description": "Masukkan tanggal lahirmu dan temukan hidupmu dalam angka-angka menarik - detak jantung, napas, langkah, dan lainnya!"
+  },
+  "a11y": {
+    "skipToContent": "Langsung ke konten"
+  },
+  "loader": {
+    "loading": "Memuat..."
+  },
+  "app": {
+    "title": "Hidupmu dalam Angka",
+    "subtitle": "Masukkan tanggal lahirmu untuk menemukan hidupmu dalam angka-angka menarik",
+    "birthdayLabel": "Tanggal Lahir",
+    "calculate": "Lihat Angkaku"
+  },
+  "result": {
+    "title": "Hidupmu Sejauh Ini",
+    "ageSummary": "{years} tahun, {days} hari",
+    "retry": "Coba Lagi",
+    "disclaimer": "Ini adalah perkiraan berdasarkan rata-rata. Hanya untuk bersenang-senang!"
+  },
+  "stats": {
+    "daysAlive": "Hari hidup",
+    "hoursAlive": "Jam hidup",
+    "minutesAlive": "Menit hidup",
+    "heartbeats": "Detak jantung",
+    "breaths": "Napas diambil",
+    "sleepHours": "Jam tidur",
+    "meals": "Kali makan",
+    "steps": "Langkah berjalan",
+    "dreams": "Mimpi",
+    "laughs": "Kali tertawa",
+    "moonCycles": "Siklus bulan",
+    "earthDistance": "Jarak perjalanan Bumi",
+    "seasons": "Musim dilalui",
+    "nextBirthday": "Hari sampai ulang tahun"
+  },
+  "share": {
+    "title": "Bagikan Hasil",
+    "copyLink": "Salin Tautan",
+    "copied": "Disalin!",
+    "text": "Hidupku dalam Angka",
+    "cta": "Cek punyamu!"
+  }
+}

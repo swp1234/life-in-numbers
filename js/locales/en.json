@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Your Life in Numbers - DopaBrain",
+    "description": "Enter your birthday and discover your life in fascinating numbers - heartbeats, breaths, steps, and more!"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content"
+  },
+  "loader": {
+    "loading": "Loading..."
+  },
+  "app": {
+    "title": "Your Life in Numbers",
+    "subtitle": "Enter your birthday to discover your life in fascinating numbers",
+    "birthdayLabel": "Date of Birth",
+    "calculate": "See My Numbers"
+  },
+  "result": {
+    "title": "Your Life So Far",
+    "ageSummary": "{years} years, {days} days",
+    "retry": "Try Again",
+    "disclaimer": "These are approximate estimates based on averages. Just for fun!"
+  },
+  "stats": {
+    "daysAlive": "Days Alive",
+    "hoursAlive": "Hours Alive",
+    "minutesAlive": "Minutes Alive",
+    "heartbeats": "Heartbeats",
+    "breaths": "Breaths Taken",
+    "sleepHours": "Hours Slept",
+    "meals": "Meals Eaten",
+    "steps": "Steps Walked",
+    "dreams": "Dreams",
+    "laughs": "Times Laughed",
+    "moonCycles": "Moon Cycles",
+    "earthDistance": "Earth Travel Distance",
+    "seasons": "Seasons Experienced",
+    "nextBirthday": "Days Until Birthday"
+  },
+  "share": {
+    "title": "Share Your Results",
+    "copyLink": "Copy Link",
+    "copied": "Copied!",
+    "text": "My Life in Numbers",
+    "cta": "Check yours!"
+  }
+}

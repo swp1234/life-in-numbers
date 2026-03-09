@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Dein Leben in Zahlen - DopaBrain",
+    "description": "Gib deinen Geburtstag ein und entdecke dein Leben in faszinierenden Zahlen - Herzschlaege, Atemzuege, Schritte und mehr!"
+  },
+  "a11y": {
+    "skipToContent": "Zum Inhalt springen"
+  },
+  "loader": {
+    "loading": "Laden..."
+  },
+  "app": {
+    "title": "Dein Leben in Zahlen",
+    "subtitle": "Gib deinen Geburtstag ein, um dein Leben in faszinierenden Zahlen zu entdecken",
+    "birthdayLabel": "Geburtsdatum",
+    "calculate": "Meine Zahlen sehen"
+  },
+  "result": {
+    "title": "Dein bisheriges Leben",
+    "ageSummary": "{years} Jahre, {days} Tage",
+    "retry": "Nochmal versuchen",
+    "disclaimer": "Dies sind ungefaehre Schaetzungen basierend auf Durchschnittswerten. Nur zum Spass!"
+  },
+  "stats": {
+    "daysAlive": "Gelebte Tage",
+    "hoursAlive": "Gelebte Stunden",
+    "minutesAlive": "Gelebte Minuten",
+    "heartbeats": "Herzschlaege",
+    "breaths": "Atemzuege",
+    "sleepHours": "Schlafstunden",
+    "meals": "Mahlzeiten",
+    "steps": "Gegangene Schritte",
+    "dreams": "Traeume",
+    "laughs": "Mal gelacht",
+    "moonCycles": "Mondzyklen",
+    "earthDistance": "Erd-Reisedistanz",
+    "seasons": "Jahreszeiten",
+    "nextBirthday": "Tage bis Geburtstag"
+  },
+  "share": {
+    "title": "Ergebnisse teilen",
+    "copyLink": "Link kopieren",
+    "copied": "Kopiert!",
+    "text": "Mein Leben in Zahlen",
+    "cta": "Schau dir deins an!"
+  }
+}

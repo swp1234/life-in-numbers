@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "나의 인생을 숫자로 - DopaBrain",
+    "description": "생년월일을 입력하면 살아온 삶을 숫자로 보여줍니다 - 심장박동, 호흡, 걸음 수 등!"
+  },
+  "a11y": {
+    "skipToContent": "본문으로 건너뛰기"
+  },
+  "loader": {
+    "loading": "로딩 중..."
+  },
+  "app": {
+    "title": "나의 인생을 숫자로",
+    "subtitle": "생년월일을 입력하고 당신의 삶을 놀라운 숫자로 만나보세요",
+    "birthdayLabel": "생년월일",
+    "calculate": "내 숫자 보기"
+  },
+  "result": {
+    "title": "지금까지의 당신의 삶",
+    "ageSummary": "{years}년, {days}일",
+    "retry": "다시 하기",
+    "disclaimer": "이 수치는 평균 기반의 대략적인 추정치입니다. 재미로만 봐주세요!"
+  },
+  "stats": {
+    "daysAlive": "살아온 일수",
+    "hoursAlive": "살아온 시간",
+    "minutesAlive": "살아온 분",
+    "heartbeats": "심장박동 수",
+    "breaths": "호흡 횟수",
+    "sleepHours": "수면 시간",
+    "meals": "식사 횟수",
+    "steps": "걸은 걸음 수",
+    "dreams": "꿈 꾼 횟수",
+    "laughs": "웃은 횟수",
+    "moonCycles": "달 주기",
+    "earthDistance": "지구 공전 거리",
+    "seasons": "계절 변화",
+    "nextBirthday": "다음 생일까지"
+  },
+  "share": {
+    "title": "결과 공유하기",
+    "copyLink": "링크 복사",
+    "copied": "복사됨!",
+    "text": "나의 인생을 숫자로 보면",
+    "cta": "당신도 확인해보세요!"
+  }
+}

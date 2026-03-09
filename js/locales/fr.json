@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Votre vie en chiffres - DopaBrain",
+    "description": "Entrez votre date de naissance et decouvrez votre vie en chiffres fascinants - battements de coeur, respirations, pas et plus!"
+  },
+  "a11y": {
+    "skipToContent": "Aller au contenu"
+  },
+  "loader": {
+    "loading": "Chargement..."
+  },
+  "app": {
+    "title": "Votre vie en chiffres",
+    "subtitle": "Entrez votre date de naissance pour decouvrir votre vie en chiffres fascinants",
+    "birthdayLabel": "Date de naissance",
+    "calculate": "Voir mes chiffres"
+  },
+  "result": {
+    "title": "Votre vie jusqu'ici",
+    "ageSummary": "{years} ans, {days} jours",
+    "retry": "Reessayer",
+    "disclaimer": "Ce sont des estimations approximatives basees sur des moyennes. Juste pour le plaisir!"
+  },
+  "stats": {
+    "daysAlive": "Jours vecus",
+    "hoursAlive": "Heures vecues",
+    "minutesAlive": "Minutes vecues",
+    "heartbeats": "Battements de coeur",
+    "breaths": "Respirations",
+    "sleepHours": "Heures de sommeil",
+    "meals": "Repas pris",
+    "steps": "Pas marches",
+    "dreams": "Reves",
+    "laughs": "Fois ri",
+    "moonCycles": "Cycles lunaires",
+    "earthDistance": "Distance terrestre",
+    "seasons": "Saisons vecues",
+    "nextBirthday": "Jours avant anniversaire"
+  },
+  "share": {
+    "title": "Partager les resultats",
+    "copyLink": "Copier le lien",
+    "copied": "Copie!",
+    "text": "Ma vie en chiffres",
+    "cta": "Decouvrez la votre!"
+  }
+}

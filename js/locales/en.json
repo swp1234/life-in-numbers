@@ -1,54 +1,69 @@
 {
-  "meta": {
-    "title": "Your Life in Numbers - DopaBrain",
-    "description": "Enter your birthday and discover your life in fascinating numbers - heartbeats, breaths, steps, and more!"
-  },
-  "a11y": {
-    "skipToContent": "Skip to content"
-  },
-  "loader": {
-    "loading": "Loading..."
-  },
-  "app": {
-    "title": "Your Life in Numbers",
-    "subtitle": "Enter your birthday to discover your life in fascinating numbers",
-    "birthdayLabel": "Date of Birth",
-    "calculate": "See My Numbers"
-  },
-  "result": {
-    "title": "Your Life So Far",
-    "ageSummary": "{years} years, {days} days",
-    "retry": "Try Again",
-    "disclaimer": "These are approximate estimates based on averages. Just for fun!"
-  },
-  "stats": {
-    "daysAlive": "Days Alive",
-    "hoursAlive": "Hours Alive",
-    "minutesAlive": "Minutes Alive",
-    "heartbeats": "Heartbeats",
-    "breaths": "Breaths Taken",
-    "sleepHours": "Hours Slept",
-    "meals": "Meals Eaten",
-    "steps": "Steps Walked",
-    "dreams": "Dreams",
-    "laughs": "Times Laughed",
-    "moonCycles": "Moon Cycles",
-    "earthDistance": "Earth Travel Distance",
-    "seasons": "Seasons Experienced",
-    "nextBirthday": "Days Until Birthday"
-  },
-  "share": {
-    "title": "Share Your Results",
-    "copyLink": "Copy Link",
-    "copied": "Copied!",
-    "text": "My Life in Numbers",
-    "cta": "Check yours!"
-  },
-  "related": {
-    "title": "More to Explore",
-    "biorhythm": "Biorhythm",
-    "bmiCalculator": "BMI Calculator",
-    "futureSelf": "Future Self",
-    "soulAge": "Soul Age"
-  }
+    "meta": {
+        "title": "Your Life in Numbers - Birthday Statistics Calculator | DopaBrain",
+        "description": "Enter your birthday and discover your life in fascinating numbers! How many heartbeats, breaths, steps, and dreams? Free calculator with beautiful visual stats."
+    },
+    "a11y": {
+        "skipToContent": "Skip to content"
+    },
+    "loader": {
+        "loading": "Loading..."
+    },
+    "app": {
+        "title": "Your Life in Numbers - Birthday Statistics Calculator",
+        "subtitle": "Enter your birthday to discover your life in fascinating numbers",
+        "birthdayLabel": "Date of Birth",
+        "calculate": "See My Numbers",
+        "start": "See My Numbers - Free"
+    },
+    "result": {
+        "title": "Your Life So Far",
+        "ageSummary": "{years} years, {days} days",
+        "retry": "Try Again",
+        "disclaimer": "These are approximate estimates based on averages. Just for fun!"
+    },
+    "stats": {
+        "daysAlive": "Days Alive",
+        "hoursAlive": "Hours Alive",
+        "minutesAlive": "Minutes Alive",
+        "heartbeats": "Heartbeats",
+        "breaths": "Breaths Taken",
+        "sleepHours": "Hours Slept",
+        "meals": "Meals Eaten",
+        "steps": "Steps Walked",
+        "dreams": "Dreams",
+        "laughs": "Times Laughed",
+        "moonCycles": "Moon Cycles",
+        "earthDistance": "Earth Travel Distance",
+        "seasons": "Seasons Experienced",
+        "nextBirthday": "Days Until Birthday"
+    },
+    "share": {
+        "title": "Share Your Results",
+        "copyLink": "Copy Link",
+        "copied": "Copied!",
+        "text": "My Life in Numbers",
+        "cta": "Check yours!"
+    },
+    "related": {
+        "title": "More to Explore",
+        "biorhythm": "Biorhythm",
+        "bmiCalculator": "BMI Calculator",
+        "futureSelf": "Future Self",
+        "soulAge": "Soul Age"
+    },
+    "engage": {
+        "result1": "2.5 Billion Heartbeats -- Your Heart Never Stops",
+        "result2": "600 Million Breaths -- Every One Counts",
+        "result3": "200,000+ Dreams -- A Lifetime of Stories",
+        "result4": "Millions of Steps -- Your Journey So Far",
+        "socialProof": "1,120+ people calculated their life numbers"
+    },
+    "about": {
+        "toggle": "About Life in Numbers",
+        "heading1": "How Life in Numbers Works",
+        "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
+        "heading2": "Understanding Your Statistics",
+        "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    }
 }

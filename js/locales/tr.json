@@ -1,54 +1,68 @@
 {
-  "meta": {
-    "title": "Hayatin Rakamlarla - DopaBrain",
-    "description": "Dogum tarihini gir ve hayatini etkileyici rakamlarla kesfet - kalp atislari, nefesler, adimlar ve daha fazlasi!"
-  },
-  "a11y": {
-    "skipToContent": "Icerige atla"
-  },
-  "loader": {
-    "loading": "Yukleniyor..."
-  },
-  "app": {
-    "title": "Hayatin Rakamlarla",
-    "subtitle": "Dogum tarihini girerek hayatini etkileyici rakamlarla kesfet",
-    "birthdayLabel": "Dogum Tarihi",
-    "calculate": "Rakamlarimi Gor"
-  },
-  "result": {
-    "title": "Simdiye Kadar Hayatin",
-    "ageSummary": "{years} yil, {days} gun",
-    "retry": "Tekrar Dene",
-    "disclaimer": "Bunlar ortalamalara dayali yaklasik tahminlerdir. Sadece eglence icin!"
-  },
-  "stats": {
-    "daysAlive": "Yasanan gunler",
-    "hoursAlive": "Yasanan saatler",
-    "minutesAlive": "Yasanan dakikalar",
-    "heartbeats": "Kalp atislari",
-    "breaths": "Alinan nefesler",
-    "sleepHours": "Uyunan saatler",
-    "meals": "Yenen ogunler",
-    "steps": "Atilan adimlar",
-    "dreams": "Gorulen ruyalar",
-    "laughs": "Gulme sayisi",
-    "moonCycles": "Ay dongusu",
-    "earthDistance": "Dunya yolculuk mesafesi",
-    "seasons": "Mevsim degisimi",
-    "nextBirthday": "Dogum gunune kalan"
-  },
-  "share": {
-    "title": "Sonuclari Paylas",
-    "copyLink": "Linki Kopyala",
-    "copied": "Kopyalandi!",
-    "text": "Hayatim rakamlarla",
-    "cta": "Seninkini kontrol et!"
-  },
-  "related": {
-    "title": "Daha fazla keşfet",
-    "biorhythm": "Biyoritm",
-    "bmiCalculator": "BMI Hesaplayıcı",
-    "futureSelf": "Gelecekteki Ben",
-    "soulAge": "Ruh Yaşı"
-  }
+    "meta": {
+        "title": "Hayatin Rakamlarla - DopaBrain",
+        "description": "Dogum tarihini gir ve hayatini etkileyici rakamlarla kesfet - kalp atislari, nefesler, adimlar ve daha fazlasi!"
+    },
+    "a11y": {
+        "skipToContent": "Icerige atla"
+    },
+    "loader": {
+        "loading": "Yukleniyor..."
+    },
+    "app": {
+        "title": "Hayatin Rakamlarla",
+        "subtitle": "Dogum tarihini girerek hayatini etkileyici rakamlarla kesfet",
+        "birthdayLabel": "Dogum Tarihi",
+        "calculate": "Rakamlarimi Gor"
+    },
+    "result": {
+        "title": "Simdiye Kadar Hayatin",
+        "ageSummary": "{years} yil, {days} gun",
+        "retry": "Tekrar Dene",
+        "disclaimer": "Bunlar ortalamalara dayali yaklasik tahminlerdir. Sadece eglence icin!"
+    },
+    "stats": {
+        "daysAlive": "Yasanan gunler",
+        "hoursAlive": "Yasanan saatler",
+        "minutesAlive": "Yasanan dakikalar",
+        "heartbeats": "Kalp atislari",
+        "breaths": "Alinan nefesler",
+        "sleepHours": "Uyunan saatler",
+        "meals": "Yenen ogunler",
+        "steps": "Atilan adimlar",
+        "dreams": "Gorulen ruyalar",
+        "laughs": "Gulme sayisi",
+        "moonCycles": "Ay dongusu",
+        "earthDistance": "Dunya yolculuk mesafesi",
+        "seasons": "Mevsim degisimi",
+        "nextBirthday": "Dogum gunune kalan"
+    },
+    "share": {
+        "title": "Sonuclari Paylas",
+        "copyLink": "Linki Kopyala",
+        "copied": "Kopyalandi!",
+        "text": "Hayatim rakamlarla",
+        "cta": "Seninkini kontrol et!"
+    },
+    "related": {
+        "title": "Daha fazla keşfet",
+        "biorhythm": "Biyoritm",
+        "bmiCalculator": "BMI Hesaplayıcı",
+        "futureSelf": "Gelecekteki Ben",
+        "soulAge": "Ruh Yaşı"
+    },
+    "engage": {
+        "result1": "2.5 Billion Heartbeats -- Your Heart Never Stops",
+        "result2": "600 Million Breaths -- Every One Counts",
+        "result3": "200,000+ Dreams -- A Lifetime of Stories",
+        "result4": "Millions of Steps -- Your Journey So Far",
+        "socialProof": "1,120+ people calculated their life numbers"
+    },
+    "about": {
+        "toggle": "About Life in Numbers",
+        "heading1": "How Life in Numbers Works",
+        "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
+        "heading2": "Understanding Your Statistics",
+        "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    }
 }

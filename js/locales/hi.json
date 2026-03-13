@@ -1,54 +1,68 @@
 {
-  "meta": {
-    "title": "आपका जीवन संख्याओं में - DopaBrain",
-    "description": "अपना जन्मदिन दर्ज करें और अपने जीवन को आकर्षक संख्याओं में खोजें - दिल की धड़कन, सांसें, कदम और भी बहुत कुछ!"
-  },
-  "a11y": {
-    "skipToContent": "मुख्य सामग्री पर जाएं"
-  },
-  "loader": {
-    "loading": "लोड हो रहा है..."
-  },
-  "app": {
-    "title": "आपका जीवन संख्याओं में",
-    "subtitle": "अपना जन्मदिन दर्ज करें और अपने जीवन को अद्भुत संख्याओं में जानें",
-    "birthdayLabel": "जन्म तिथि",
-    "calculate": "मेरे नंबर देखें"
-  },
-  "result": {
-    "title": "अब तक आपका जीवन",
-    "ageSummary": "{years} साल, {days} दिन",
-    "retry": "फिर से करें",
-    "disclaimer": "ये औसत पर आधारित अनुमानित आंकड़े हैं। बस मज़े के लिए!"
-  },
-  "stats": {
-    "daysAlive": "जीवित दिन",
-    "hoursAlive": "जीवित घंटे",
-    "minutesAlive": "जीवित मिनट",
-    "heartbeats": "दिल की धड़कन",
-    "breaths": "सांसें ली",
-    "sleepHours": "सोने के घंटे",
-    "meals": "भोजन किए",
-    "steps": "कदम चले",
-    "dreams": "सपने देखे",
-    "laughs": "बार हंसे",
-    "moonCycles": "चंद्र चक्र",
-    "earthDistance": "पृथ्वी यात्रा दूरी",
-    "seasons": "मौसम बदले",
-    "nextBirthday": "अगले जन्मदिन तक"
-  },
-  "share": {
-    "title": "परिणाम साझा करें",
-    "copyLink": "लिंक कॉपी करें",
-    "copied": "कॉपी हो गया!",
-    "text": "मेरा जीवन संख्याओं में",
-    "cta": "अपना भी देखें!"
-  },
-  "related": {
-    "title": "और खोजें",
-    "biorhythm": "बायोरिदम",
-    "bmiCalculator": "BMI कैलकुलेटर",
-    "futureSelf": "भविष्य का मैं",
-    "soulAge": "आत्मा की आयु"
-  }
+    "meta": {
+        "title": "आपका जीवन संख्याओं में - DopaBrain",
+        "description": "अपना जन्मदिन दर्ज करें और अपने जीवन को आकर्षक संख्याओं में खोजें - दिल की धड़कन, सांसें, कदम और भी बहुत कुछ!"
+    },
+    "a11y": {
+        "skipToContent": "मुख्य सामग्री पर जाएं"
+    },
+    "loader": {
+        "loading": "लोड हो रहा है..."
+    },
+    "app": {
+        "title": "आपका जीवन संख्याओं में",
+        "subtitle": "अपना जन्मदिन दर्ज करें और अपने जीवन को अद्भुत संख्याओं में जानें",
+        "birthdayLabel": "जन्म तिथि",
+        "calculate": "मेरे नंबर देखें"
+    },
+    "result": {
+        "title": "अब तक आपका जीवन",
+        "ageSummary": "{years} साल, {days} दिन",
+        "retry": "फिर से करें",
+        "disclaimer": "ये औसत पर आधारित अनुमानित आंकड़े हैं। बस मज़े के लिए!"
+    },
+    "stats": {
+        "daysAlive": "जीवित दिन",
+        "hoursAlive": "जीवित घंटे",
+        "minutesAlive": "जीवित मिनट",
+        "heartbeats": "दिल की धड़कन",
+        "breaths": "सांसें ली",
+        "sleepHours": "सोने के घंटे",
+        "meals": "भोजन किए",
+        "steps": "कदम चले",
+        "dreams": "सपने देखे",
+        "laughs": "बार हंसे",
+        "moonCycles": "चंद्र चक्र",
+        "earthDistance": "पृथ्वी यात्रा दूरी",
+        "seasons": "मौसम बदले",
+        "nextBirthday": "अगले जन्मदिन तक"
+    },
+    "share": {
+        "title": "परिणाम साझा करें",
+        "copyLink": "लिंक कॉपी करें",
+        "copied": "कॉपी हो गया!",
+        "text": "मेरा जीवन संख्याओं में",
+        "cta": "अपना भी देखें!"
+    },
+    "related": {
+        "title": "और खोजें",
+        "biorhythm": "बायोरिदम",
+        "bmiCalculator": "BMI कैलकुलेटर",
+        "futureSelf": "भविष्य का मैं",
+        "soulAge": "आत्मा की आयु"
+    },
+    "engage": {
+        "result1": "2.5 Billion Heartbeats -- Your Heart Never Stops",
+        "result2": "600 Million Breaths -- Every One Counts",
+        "result3": "200,000+ Dreams -- A Lifetime of Stories",
+        "result4": "Millions of Steps -- Your Journey So Far",
+        "socialProof": "1,120+ people calculated their life numbers"
+    },
+    "about": {
+        "toggle": "About Life in Numbers",
+        "heading1": "How Life in Numbers Works",
+        "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
+        "heading2": "Understanding Your Statistics",
+        "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    }
 }

@@ -1,54 +1,69 @@
 {
-  "meta": {
-    "title": "나의 인생을 숫자로 - DopaBrain",
-    "description": "생년월일을 입력하면 살아온 삶을 숫자로 보여줍니다 - 심장박동, 호흡, 걸음 수 등!"
-  },
-  "a11y": {
-    "skipToContent": "본문으로 건너뛰기"
-  },
-  "loader": {
-    "loading": "로딩 중..."
-  },
-  "app": {
-    "title": "나의 인생을 숫자로",
-    "subtitle": "생년월일을 입력하고 당신의 삶을 놀라운 숫자로 만나보세요",
-    "birthdayLabel": "생년월일",
-    "calculate": "내 숫자 보기"
-  },
-  "result": {
-    "title": "지금까지의 당신의 삶",
-    "ageSummary": "{years}년, {days}일",
-    "retry": "다시 하기",
-    "disclaimer": "이 수치는 평균 기반의 대략적인 추정치입니다. 재미로만 봐주세요!"
-  },
-  "stats": {
-    "daysAlive": "살아온 일수",
-    "hoursAlive": "살아온 시간",
-    "minutesAlive": "살아온 분",
-    "heartbeats": "심장박동 수",
-    "breaths": "호흡 횟수",
-    "sleepHours": "수면 시간",
-    "meals": "식사 횟수",
-    "steps": "걸은 걸음 수",
-    "dreams": "꿈 꾼 횟수",
-    "laughs": "웃은 횟수",
-    "moonCycles": "달 주기",
-    "earthDistance": "지구 공전 거리",
-    "seasons": "계절 변화",
-    "nextBirthday": "다음 생일까지"
-  },
-  "share": {
-    "title": "결과 공유하기",
-    "copyLink": "링크 복사",
-    "copied": "복사됨!",
-    "text": "나의 인생을 숫자로 보면",
-    "cta": "당신도 확인해보세요!"
-  },
-  "related": {
-    "title": "더 많은 콘텐츠",
-    "biorhythm": "바이오리듬",
-    "bmiCalculator": "BMI 계산기",
-    "futureSelf": "미래의 나",
-    "soulAge": "영혼 나이"
-  }
+    "meta": {
+        "title": "숫자로 보는 내 인생 - 생일 통계 계산기 | DopaBrain",
+        "description": "생일을 입력하고 매력적인 숫자로 인생을 만나보세요! 심장 박동, 호흡, 걸음, 꿈 횟수는? 무료 계산기."
+    },
+    "a11y": {
+        "skipToContent": "본문으로 건너뛰기"
+    },
+    "loader": {
+        "loading": "로딩 중..."
+    },
+    "app": {
+        "title": "숫자로 보는 내 인생 - 생일 통계 계산기",
+        "subtitle": "생년월일을 입력하고 당신의 삶을 놀라운 숫자로 만나보세요",
+        "birthdayLabel": "생년월일",
+        "calculate": "내 숫자 보기",
+        "start": "내 숫자 보기 - 무료"
+    },
+    "result": {
+        "title": "지금까지의 당신의 삶",
+        "ageSummary": "{years}년, {days}일",
+        "retry": "다시 하기",
+        "disclaimer": "이 수치는 평균 기반의 대략적인 추정치입니다. 재미로만 봐주세요!"
+    },
+    "stats": {
+        "daysAlive": "살아온 일수",
+        "hoursAlive": "살아온 시간",
+        "minutesAlive": "살아온 분",
+        "heartbeats": "심장박동 수",
+        "breaths": "호흡 횟수",
+        "sleepHours": "수면 시간",
+        "meals": "식사 횟수",
+        "steps": "걸은 걸음 수",
+        "dreams": "꿈 꾼 횟수",
+        "laughs": "웃은 횟수",
+        "moonCycles": "달 주기",
+        "earthDistance": "지구 공전 거리",
+        "seasons": "계절 변화",
+        "nextBirthday": "다음 생일까지"
+    },
+    "share": {
+        "title": "결과 공유하기",
+        "copyLink": "링크 복사",
+        "copied": "복사됨!",
+        "text": "나의 인생을 숫자로 보면",
+        "cta": "당신도 확인해보세요!"
+    },
+    "related": {
+        "title": "더 많은 콘텐츠",
+        "biorhythm": "바이오리듬",
+        "bmiCalculator": "BMI 계산기",
+        "futureSelf": "미래의 나",
+        "soulAge": "영혼 나이"
+    },
+    "engage": {
+        "result1": "25억 심장 박동 -- 당신의 심장은 멈추지 않아요",
+        "result2": "6억 회 호흡 -- 하나하나가 소중해요",
+        "result3": "200,000+ 꿈 -- 일생의 이야기",
+        "result4": "수백만 걸음 -- 당신의 여정",
+        "socialProof": "1,120+명이 인생 숫자를 계산했어요"
+    },
+    "about": {
+        "toggle": "숫자로 보는 인생 알아보기",
+        "heading1": "숫자로 보는 인생 작동 방식",
+        "text1": "숫자로 보는 인생은 생일을 기반으로 지금까지 삶의 매력적인 통계를 계산합니다. 심장 박동부터 호흡, 걸음, 꿈까지 모든 숫자가 삶의 놓라운 여정을 말해줍니다.",
+        "heading2": "통계 이해하기",
+        "text2": "모든 숫자는 과학적 평균을 기반으로 한 근사치입니다. 이 계산기는 재미와 삶에 대한 감사를 위한 것입니다."
+    }
 }

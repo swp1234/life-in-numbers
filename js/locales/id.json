@@ -1,54 +1,68 @@
 {
-  "meta": {
-    "title": "Hidupmu dalam Angka - DopaBrain",
-    "description": "Masukkan tanggal lahirmu dan temukan hidupmu dalam angka-angka menarik - detak jantung, napas, langkah, dan lainnya!"
-  },
-  "a11y": {
-    "skipToContent": "Langsung ke konten"
-  },
-  "loader": {
-    "loading": "Memuat..."
-  },
-  "app": {
-    "title": "Hidupmu dalam Angka",
-    "subtitle": "Masukkan tanggal lahirmu untuk menemukan hidupmu dalam angka-angka menarik",
-    "birthdayLabel": "Tanggal Lahir",
-    "calculate": "Lihat Angkaku"
-  },
-  "result": {
-    "title": "Hidupmu Sejauh Ini",
-    "ageSummary": "{years} tahun, {days} hari",
-    "retry": "Coba Lagi",
-    "disclaimer": "Ini adalah perkiraan berdasarkan rata-rata. Hanya untuk bersenang-senang!"
-  },
-  "stats": {
-    "daysAlive": "Hari hidup",
-    "hoursAlive": "Jam hidup",
-    "minutesAlive": "Menit hidup",
-    "heartbeats": "Detak jantung",
-    "breaths": "Napas diambil",
-    "sleepHours": "Jam tidur",
-    "meals": "Kali makan",
-    "steps": "Langkah berjalan",
-    "dreams": "Mimpi",
-    "laughs": "Kali tertawa",
-    "moonCycles": "Siklus bulan",
-    "earthDistance": "Jarak perjalanan Bumi",
-    "seasons": "Musim dilalui",
-    "nextBirthday": "Hari sampai ulang tahun"
-  },
-  "share": {
-    "title": "Bagikan Hasil",
-    "copyLink": "Salin Tautan",
-    "copied": "Disalin!",
-    "text": "Hidupku dalam Angka",
-    "cta": "Cek punyamu!"
-  },
-  "related": {
-    "title": "Jelajahi lainnya",
-    "biorhythm": "Bioritme",
-    "bmiCalculator": "Kalkulator BMI",
-    "futureSelf": "Masa Depanmu",
-    "soulAge": "Usia Jiwa"
-  }
+    "meta": {
+        "title": "Hidupmu dalam Angka - DopaBrain",
+        "description": "Masukkan tanggal lahirmu dan temukan hidupmu dalam angka-angka menarik - detak jantung, napas, langkah, dan lainnya!"
+    },
+    "a11y": {
+        "skipToContent": "Langsung ke konten"
+    },
+    "loader": {
+        "loading": "Memuat..."
+    },
+    "app": {
+        "title": "Hidupmu dalam Angka",
+        "subtitle": "Masukkan tanggal lahirmu untuk menemukan hidupmu dalam angka-angka menarik",
+        "birthdayLabel": "Tanggal Lahir",
+        "calculate": "Lihat Angkaku"
+    },
+    "result": {
+        "title": "Hidupmu Sejauh Ini",
+        "ageSummary": "{years} tahun, {days} hari",
+        "retry": "Coba Lagi",
+        "disclaimer": "Ini adalah perkiraan berdasarkan rata-rata. Hanya untuk bersenang-senang!"
+    },
+    "stats": {
+        "daysAlive": "Hari hidup",
+        "hoursAlive": "Jam hidup",
+        "minutesAlive": "Menit hidup",
+        "heartbeats": "Detak jantung",
+        "breaths": "Napas diambil",
+        "sleepHours": "Jam tidur",
+        "meals": "Kali makan",
+        "steps": "Langkah berjalan",
+        "dreams": "Mimpi",
+        "laughs": "Kali tertawa",
+        "moonCycles": "Siklus bulan",
+        "earthDistance": "Jarak perjalanan Bumi",
+        "seasons": "Musim dilalui",
+        "nextBirthday": "Hari sampai ulang tahun"
+    },
+    "share": {
+        "title": "Bagikan Hasil",
+        "copyLink": "Salin Tautan",
+        "copied": "Disalin!",
+        "text": "Hidupku dalam Angka",
+        "cta": "Cek punyamu!"
+    },
+    "related": {
+        "title": "Jelajahi lainnya",
+        "biorhythm": "Bioritme",
+        "bmiCalculator": "Kalkulator BMI",
+        "futureSelf": "Masa Depanmu",
+        "soulAge": "Usia Jiwa"
+    },
+    "engage": {
+        "result1": "2.5 Billion Heartbeats -- Your Heart Never Stops",
+        "result2": "600 Million Breaths -- Every One Counts",
+        "result3": "200,000+ Dreams -- A Lifetime of Stories",
+        "result4": "Millions of Steps -- Your Journey So Far",
+        "socialProof": "1,120+ people calculated their life numbers"
+    },
+    "about": {
+        "toggle": "About Life in Numbers",
+        "heading1": "How Life in Numbers Works",
+        "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
+        "heading2": "Understanding Your Statistics",
+        "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    }
 }

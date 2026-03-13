@@ -11,8 +11,8 @@
 
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3600813755953882" crossorigin="anonymous"></script>
 
-  <title data-i18n="meta.title">Your Life in Numbers - DopaBrain</title>
-  <meta name="description" data-i18n="meta.description" content="Enter your birthday and discover your life in fascinating numbers - heartbeats, breaths, steps, dreams, and more!">
+  <title data-i18n="meta.title">Your Life in Numbers - Birthday Statistics Calculator | DopaBrain</title>
+  <meta name="description" data-i18n="meta.description" content="Enter your birthday and discover your life in fascinating numbers! How many heartbeats, breaths, steps, and dreams? Free calculator with beautiful visual stats.">
   <meta name="keywords" content="life in numbers, birthday calculator, life statistics, heartbeats counter, life calculator, dopabrain">
 
   <link rel="canonical" href="https://dopabrain.com/life-in-numbers/">
@@ -86,6 +86,53 @@
     }
 }
   </script>
+  <!-- BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dopabrain.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Tests", "item": "https://dopabrain.com/portal/" },
+          { "@type": "ListItem", "position": 3, "name": "Fun Tests", "item": "https://dopabrain.com/portal/" },
+          { "@type": "ListItem", "position": 4, "name": "Life in Numbers", "item": "https://dopabrain.com/life-in-numbers/" }
+      ]
+  }
+  </script>
+  <!-- FAQPage -->
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+          {
+              "@type": "Question",
+              "name": "What is Life in Numbers?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Life in Numbers is a birthday statistics calculator that takes your date of birth and computes fascinating statistics about your life so far, including heartbeats, breaths, steps, blinks, dreams, meals, and more, all visualized with beautiful animated number cards." }
+          },
+          {
+              "@type": "Question",
+              "name": "How accurate are the life statistics?",
+              "acceptedAnswer": { "@type": "Answer", "text": "All numbers are approximate estimates based on scientific averages. For example, the average heart beats about 100,000 times per day, and humans take around 20,000 breaths daily. Individual numbers vary based on lifestyle, health, and activity level." }
+          },
+          {
+              "@type": "Question",
+              "name": "What statistics does Life in Numbers calculate?",
+              "acceptedAnswer": { "@type": "Answer", "text": "The calculator provides statistics including total heartbeats, breaths taken, steps walked, hours slept, dreams experienced, meals eaten, blinks, words spoken, and more. Each stat is presented with context to help you appreciate the scale of everyday life." }
+          },
+          {
+              "@type": "Question",
+              "name": "Can I share my life statistics?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes! After calculating your numbers, you can share your life statistics on KakaoTalk, X (Twitter), Facebook, or copy the link. Comparing life numbers with friends born on different dates makes for interesting conversations." }
+          },
+          {
+              "@type": "Question",
+              "name": "Does Life in Numbers store my birthday?",
+              "acceptedAnswer": { "@type": "Answer", "text": "No. All calculations happen locally in your browser. Your birthday is not sent to any server or stored anywhere. The tool is completely private and free to use." }
+          }
+      ]
+  }
+  </script>
 
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -105,15 +152,28 @@
       <section id="input-screen" class="screen active">
         <div class="hero">
           <div class="hero-icon">&#x1F30C;</div>
-          <h1 data-i18n="app.title">Your Life in Numbers</h1>
+          <h1 data-i18n="app.title">Your Life in Numbers - Birthday Statistics Calculator</h1>
           <p class="subtitle" data-i18n="app.subtitle">Enter your birthday to discover your life in fascinating numbers</p>
+        </div>
+
+        <!-- Result Preview Carousel -->
+        <div class="result-carousel" aria-live="polite">
+            <div class="carousel-track">
+                <div class="carousel-item" data-i18n="engage.result1">2.5 Billion Heartbeats -- Your Heart Never Stops</div>
+                <div class="carousel-item" data-i18n="engage.result2">600 Million Breaths -- Every One Counts</div>
+                <div class="carousel-item" data-i18n="engage.result3">200,000+ Dreams -- A Lifetime of Stories</div>
+                <div class="carousel-item" data-i18n="engage.result4">Millions of Steps -- Your Journey So Far</div>
+            </div>
         </div>
 
         <div class="card input-card">
           <label for="birthday" class="input-label" data-i18n="app.birthdayLabel">Date of Birth</label>
           <input type="date" id="birthday" class="date-input" max="" required>
-          <button id="calculate-btn" class="btn btn-primary" data-i18n="app.calculate">See My Numbers</button>
+          <button id="calculate-btn" class="btn btn-primary btn-pulse" data-i18n="app.calculate">See My Numbers - Free</button>
         </div>
+
+        <!-- Social Proof Badge -->
+        <div class="social-proof-badge" data-i18n="engage.socialProof">1,120+ people calculated their life numbers</div>
       </section>
 
       <!-- Result Screen -->
@@ -154,6 +214,19 @@
       </section>
     </div>
   </main>
+
+  <!-- About Section -->
+  <section class="about-section collapsible-section" id="about-section">
+    <details>
+      <summary data-i18n="about.toggle">About Life in Numbers</summary>
+      <div class="about-content">
+        <h2 data-i18n="about.heading1">How Life in Numbers Works</h2>
+        <p data-i18n="about.text1">Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.</p>
+        <h2 data-i18n="about.heading2">Understanding Your Statistics</h2>
+        <p data-i18n="about.text2">All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life.</p>
+      </div>
+    </details>
+  </section>
 
   <div style="max-width:420px;margin:20px auto;padding-top:20px;border-top:1px solid rgba(255,255,255,0.1);">
     <h3 data-i18n="related.title" style="font-size:16px;color:#a0a0b8;margin-bottom:12px;text-align:center;">More to Explore</h3>

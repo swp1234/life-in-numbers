@@ -1,54 +1,68 @@
 {
-  "meta": {
-    "title": "你的生命数字 - DopaBrain",
-    "description": "输入你的生日，用数字发现你的生活 - 心跳、呼吸、步数等等！"
-  },
-  "a11y": {
-    "skipToContent": "跳到正文"
-  },
-  "loader": {
-    "loading": "加载中..."
-  },
-  "app": {
-    "title": "你的生命数字",
-    "subtitle": "输入你的生日，用迷人的数字发现你的生活",
-    "birthdayLabel": "出生日期",
-    "calculate": "查看我的数字"
-  },
-  "result": {
-    "title": "你至今的人生",
-    "ageSummary": "{years}年，{days}天",
-    "retry": "再试一次",
-    "disclaimer": "这些是基于平均值的大致估算。仅供娱乐！"
-  },
-  "stats": {
-    "daysAlive": "活过的天数",
-    "hoursAlive": "活过的小时",
-    "minutesAlive": "活过的分钟",
-    "heartbeats": "心跳次数",
-    "breaths": "呼吸次数",
-    "sleepHours": "睡眠时间",
-    "meals": "用餐次数",
-    "steps": "走过的步数",
-    "dreams": "做梦次数",
-    "laughs": "笑过的次数",
-    "moonCycles": "月亮周期",
-    "earthDistance": "地球公转距离",
-    "seasons": "经历的季节",
-    "nextBirthday": "距下次生日"
-  },
-  "share": {
-    "title": "分享结果",
-    "copyLink": "复制链接",
-    "copied": "已复制！",
-    "text": "我的生命数字",
-    "cta": "查看你的！"
-  },
-  "related": {
-    "title": "探索更多",
-    "biorhythm": "生物节律",
-    "bmiCalculator": "BMI计算器",
-    "futureSelf": "未来的自己",
-    "soulAge": "灵魂年龄"
-  }
+    "meta": {
+        "title": "你的生命数字 - DopaBrain",
+        "description": "输入你的生日，用数字发现你的生活 - 心跳、呼吸、步数等等！"
+    },
+    "a11y": {
+        "skipToContent": "跳到正文"
+    },
+    "loader": {
+        "loading": "加载中..."
+    },
+    "app": {
+        "title": "你的生命数字",
+        "subtitle": "输入你的生日，用迷人的数字发现你的生活",
+        "birthdayLabel": "出生日期",
+        "calculate": "查看我的数字"
+    },
+    "result": {
+        "title": "你至今的人生",
+        "ageSummary": "{years}年，{days}天",
+        "retry": "再试一次",
+        "disclaimer": "这些是基于平均值的大致估算。仅供娱乐！"
+    },
+    "stats": {
+        "daysAlive": "活过的天数",
+        "hoursAlive": "活过的小时",
+        "minutesAlive": "活过的分钟",
+        "heartbeats": "心跳次数",
+        "breaths": "呼吸次数",
+        "sleepHours": "睡眠时间",
+        "meals": "用餐次数",
+        "steps": "走过的步数",
+        "dreams": "做梦次数",
+        "laughs": "笑过的次数",
+        "moonCycles": "月亮周期",
+        "earthDistance": "地球公转距离",
+        "seasons": "经历的季节",
+        "nextBirthday": "距下次生日"
+    },
+    "share": {
+        "title": "分享结果",
+        "copyLink": "复制链接",
+        "copied": "已复制！",
+        "text": "我的生命数字",
+        "cta": "查看你的！"
+    },
+    "related": {
+        "title": "探索更多",
+        "biorhythm": "生物节律",
+        "bmiCalculator": "BMI计算器",
+        "futureSelf": "未来的自己",
+        "soulAge": "灵魂年龄"
+    },
+    "engage": {
+        "result1": "2.5 Billion Heartbeats -- Your Heart Never Stops",
+        "result2": "600 Million Breaths -- Every One Counts",
+        "result3": "200,000+ Dreams -- A Lifetime of Stories",
+        "result4": "Millions of Steps -- Your Journey So Far",
+        "socialProof": "1,120+ people calculated their life numbers"
+    },
+    "about": {
+        "toggle": "About Life in Numbers",
+        "heading1": "How Life in Numbers Works",
+        "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
+        "heading2": "Understanding Your Statistics",
+        "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    }
 }

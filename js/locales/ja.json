@@ -1,54 +1,68 @@
 {
-  "meta": {
-    "title": "あなたの人生を数字で - DopaBrain",
-    "description": "誕生日を入力して、人生を数字で発見しよう - 心拍数、呼吸、歩数など！"
-  },
-  "a11y": {
-    "skipToContent": "本文へスキップ"
-  },
-  "loader": {
-    "loading": "読み込み中..."
-  },
-  "app": {
-    "title": "あなたの人生を数字で",
-    "subtitle": "誕生日を入力して、人生を魅力的な数字で発見しましょう",
-    "birthdayLabel": "生年月日",
-    "calculate": "数字を見る"
-  },
-  "result": {
-    "title": "これまでのあなたの人生",
-    "ageSummary": "{years}年、{days}日",
-    "retry": "もう一度",
-    "disclaimer": "これらは平均値に基づく概算です。お楽しみ用です！"
-  },
-  "stats": {
-    "daysAlive": "生きた日数",
-    "hoursAlive": "生きた時間",
-    "minutesAlive": "生きた分数",
-    "heartbeats": "心拍数",
-    "breaths": "呼吸回数",
-    "sleepHours": "睡眠時間",
-    "meals": "食事回数",
-    "steps": "歩いた歩数",
-    "dreams": "夢の回数",
-    "laughs": "笑った回数",
-    "moonCycles": "月の周期",
-    "earthDistance": "地球公転距離",
-    "seasons": "季節の変化",
-    "nextBirthday": "次の誕生日まで"
-  },
-  "share": {
-    "title": "結果をシェア",
-    "copyLink": "リンクコピー",
-    "copied": "コピーしました！",
-    "text": "私の人生を数字で見ると",
-    "cta": "あなたも確認してみて！"
-  },
-  "related": {
-    "title": "もっと楽しむ",
-    "biorhythm": "バイオリズム",
-    "bmiCalculator": "BMI計算機",
-    "futureSelf": "未来の自分",
-    "soulAge": "魂の年齢"
-  }
+    "meta": {
+        "title": "あなたの人生を数字で - DopaBrain",
+        "description": "誕生日を入力して、人生を数字で発見しよう - 心拍数、呼吸、歩数など！"
+    },
+    "a11y": {
+        "skipToContent": "本文へスキップ"
+    },
+    "loader": {
+        "loading": "読み込み中..."
+    },
+    "app": {
+        "title": "あなたの人生を数字で",
+        "subtitle": "誕生日を入力して、人生を魅力的な数字で発見しましょう",
+        "birthdayLabel": "生年月日",
+        "calculate": "数字を見る"
+    },
+    "result": {
+        "title": "これまでのあなたの人生",
+        "ageSummary": "{years}年、{days}日",
+        "retry": "もう一度",
+        "disclaimer": "これらは平均値に基づく概算です。お楽しみ用です！"
+    },
+    "stats": {
+        "daysAlive": "生きた日数",
+        "hoursAlive": "生きた時間",
+        "minutesAlive": "生きた分数",
+        "heartbeats": "心拍数",
+        "breaths": "呼吸回数",
+        "sleepHours": "睡眠時間",
+        "meals": "食事回数",
+        "steps": "歩いた歩数",
+        "dreams": "夢の回数",
+        "laughs": "笑った回数",
+        "moonCycles": "月の周期",
+        "earthDistance": "地球公転距離",
+        "seasons": "季節の変化",
+        "nextBirthday": "次の誕生日まで"
+    },
+    "share": {
+        "title": "結果をシェア",
+        "copyLink": "リンクコピー",
+        "copied": "コピーしました！",
+        "text": "私の人生を数字で見ると",
+        "cta": "あなたも確認してみて！"
+    },
+    "related": {
+        "title": "もっと楽しむ",
+        "biorhythm": "バイオリズム",
+        "bmiCalculator": "BMI計算機",
+        "futureSelf": "未来の自分",
+        "soulAge": "魂の年齢"
+    },
+    "engage": {
+        "result1": "2.5 Billion Heartbeats -- Your Heart Never Stops",
+        "result2": "600 Million Breaths -- Every One Counts",
+        "result3": "200,000+ Dreams -- A Lifetime of Stories",
+        "result4": "Millions of Steps -- Your Journey So Far",
+        "socialProof": "1,120+ people calculated their life numbers"
+    },
+    "about": {
+        "toggle": "About Life in Numbers",
+        "heading1": "How Life in Numbers Works",
+        "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
+        "heading2": "Understanding Your Statistics",
+        "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    }
 }

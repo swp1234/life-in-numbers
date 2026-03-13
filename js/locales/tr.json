@@ -43,5 +43,12 @@
     "copied": "Kopyalandi!",
     "text": "Hayatim rakamlarla",
     "cta": "Seninkini kontrol et!"
+  },
+  "related": {
+    "title": "Daha fazla keşfet",
+    "biorhythm": "Biyoritm",
+    "bmiCalculator": "BMI Hesaplayıcı",
+    "futureSelf": "Gelecekteki Ben",
+    "soulAge": "Ruh Yaşı"
   }
 }

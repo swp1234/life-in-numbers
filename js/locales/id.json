@@ -43,5 +43,12 @@
     "copied": "Disalin!",
     "text": "Hidupku dalam Angka",
     "cta": "Cek punyamu!"
+  },
+  "related": {
+    "title": "Jelajahi lainnya",
+    "biorhythm": "Bioritme",
+    "bmiCalculator": "Kalkulator BMI",
+    "futureSelf": "Masa Depanmu",
+    "soulAge": "Usia Jiwa"
   }
 }

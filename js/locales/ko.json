@@ -43,5 +43,12 @@
     "copied": "복사됨!",
     "text": "나의 인생을 숫자로 보면",
     "cta": "당신도 확인해보세요!"
+  },
+  "related": {
+    "title": "더 많은 콘텐츠",
+    "biorhythm": "바이오리듬",
+    "bmiCalculator": "BMI 계산기",
+    "futureSelf": "미래의 나",
+    "soulAge": "영혼 나이"
   }
 }

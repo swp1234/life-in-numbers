@@ -43,5 +43,12 @@
     "copied": "Kopiert!",
     "text": "Mein Leben in Zahlen",
     "cta": "Schau dir deins an!"
+  },
+  "related": {
+    "title": "Mehr entdecken",
+    "biorhythm": "Biorhythmus",
+    "bmiCalculator": "BMI-Rechner",
+    "futureSelf": "Zukunfts-Ich",
+    "soulAge": "Seelenalter"
   }
 }

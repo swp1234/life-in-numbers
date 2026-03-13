@@ -43,5 +43,12 @@
     "copied": "已复制！",
     "text": "我的生命数字",
     "cta": "查看你的！"
+  },
+  "related": {
+    "title": "探索更多",
+    "biorhythm": "生物节律",
+    "bmiCalculator": "BMI计算器",
+    "futureSelf": "未来的自己",
+    "soulAge": "灵魂年龄"
   }
 }

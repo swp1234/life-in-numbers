@@ -43,5 +43,12 @@
     "copied": "Copiado!",
     "text": "Mi vida en numeros",
     "cta": "Descubre la tuya!"
+  },
+  "related": {
+    "title": "Explora más",
+    "biorhythm": "Biorritmo",
+    "bmiCalculator": "Calculadora de IMC",
+    "futureSelf": "Tu Yo Futuro",
+    "soulAge": "Edad del Alma"
   }
 }

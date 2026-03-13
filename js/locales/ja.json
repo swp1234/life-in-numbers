@@ -43,5 +43,12 @@
     "copied": "コピーしました！",
     "text": "私の人生を数字で見ると",
     "cta": "あなたも確認してみて！"
+  },
+  "related": {
+    "title": "もっと楽しむ",
+    "biorhythm": "バイオリズム",
+    "bmiCalculator": "BMI計算機",
+    "futureSelf": "未来の自分",
+    "soulAge": "魂の年齢"
   }
 }

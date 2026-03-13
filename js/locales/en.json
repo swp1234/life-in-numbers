@@ -43,5 +43,12 @@
     "copied": "Copied!",
     "text": "My Life in Numbers",
     "cta": "Check yours!"
+  },
+  "related": {
+    "title": "More to Explore",
+    "biorhythm": "Biorhythm",
+    "bmiCalculator": "BMI Calculator",
+    "futureSelf": "Future Self",
+    "soulAge": "Soul Age"
   }
 }

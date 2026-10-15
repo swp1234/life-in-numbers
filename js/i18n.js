@@ -12,9 +12,12 @@
 
       async init() {
         try {
+          const params = new URLSearchParams(window.location.search || '');
+          const urlLang = params.get('lang');
           const browserLang = (navigator.language || '').slice(0, 2).toLowerCase();
           const saved = localStorage.getItem('preferred-lang');
-          this.currentLang = saved && SUPPORTED_LANGS.includes(saved) ? saved
+          this.currentLang = urlLang && SUPPORTED_LANGS.includes(urlLang) ? urlLang
+            : saved && SUPPORTED_LANGS.includes(saved) ? saved
             : SUPPORTED_LANGS.includes(browserLang) ? browserLang
             : DEFAULT_LANG;
           await this.loadTranslations(this.currentLang);

@@ -3,6 +3,7 @@
   'use strict';
 
   // Hide app loader
+  document.addEventListener('DOMContentLoaded', preserveLanguageLinks);
   window.addEventListener('load', () => {
     const loader = document.getElementById('app-loader');
     if (loader) {
@@ -17,6 +18,23 @@
       setTimeout(() => loader.remove(), 500);
     }
   }, 5000);
+
+  function preserveLanguageLinks() {
+    try {
+      var params = new URLSearchParams(window.location.search);
+      var lang = params.get('lang');
+      if (!lang) return;
+      document.querySelectorAll('a[href^="/"]').forEach(function(a) {
+        var href = a.getAttribute('href');
+        if (!href) return;
+        var url = new URL(href, window.location.origin);
+        if (!url.searchParams.has('lang')) {
+          url.searchParams.set('lang', lang);
+          a.setAttribute('href', url.pathname + url.search + url.hash);
+        }
+      });
+    } catch (e) {}
+  }
 
   // Stars background
   function initStars() {
@@ -229,6 +247,7 @@
     // Switch screens
     inputScreen.classList.remove('active');
     resultScreen.classList.add('active');
+    preserveLanguageLinks();
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
     // GA4 event

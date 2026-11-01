@@ -21,16 +21,29 @@
 
   function preserveLanguageLinks() {
     try {
-      var params = new URLSearchParams(window.location.search);
-      var lang = params.get('lang');
-      if (!lang) return;
-      document.querySelectorAll('a[href^="/"]').forEach(function(a) {
+      var lang = (window.i18n && window.i18n.currentLang) || new URLSearchParams(window.location.search).get('lang') || 'ko';
+      document.querySelectorAll('.related-card, a[href^="/biorhythm/"], a[href^="/bmi-calculator/"], a[href^="/future-self/"], a[href^="/soul-age/"]').forEach(function(a) {
         var href = a.getAttribute('href');
-        if (!href) return;
+        if (!href || href.startsWith('/portal/')) return;
         var url = new URL(href, window.location.origin);
-        if (!url.searchParams.has('lang')) {
+        if (lang) {
           url.searchParams.set('lang', lang);
-          a.setAttribute('href', url.pathname + url.search + url.hash);
+        }
+        url.searchParams.set('source', 'life_in_numbers_result');
+        a.setAttribute('href', url.pathname + url.search + url.hash);
+
+        if (!a.__ctaBound) {
+          a.__ctaBound = true;
+          a.addEventListener('click', function() {
+            if (typeof gtag === 'function') {
+              gtag('event', 'content_cta_click', {
+                cta_surface: 'related_tools',
+                destination: a.getAttribute('href'),
+                source: 'life_in_numbers_result',
+                lang: lang || 'ko'
+              });
+            }
+          });
         }
       });
     } catch (e) {}

@@ -59,10 +59,22 @@
     "socialProof": "Métriques en temps réel · Calcul 100% privé"
   },
   "about": {
-    "toggle": "About Life in Numbers",
-    "heading1": "How Life in Numbers Works",
-    "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
-    "heading2": "Understanding Your Statistics",
-    "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    "toggle": "À propos de Votre Vie en Chiffres & Chronobiologie",
+    "heading1": "Biomathématiques et Jalons Chronobiologiques",
+    "text1": "Votre Vie en Chiffres associe des moyennes physiologiques reconnues (pouls au repos ~70-80 bpm, respiration ~12-16 cycles/min, cycles de sommeil de 90 min) aux lois de la mécanique céleste. Votre cœur bat plus de 100 000 fois par jour tandis que la Terre vous transporte dans l'espace à 29,78 km/s.",
+    "heading2": "Psychologie de la Réflexion Temporelle & \"Memento Mori\"",
+    "text2": "Convertir le temps abstrait en repères concrets (heures de sommeil, pas franchis, rêves vécus) éveille un sentiment de gratitude existentielle et ancre l'esprit dans l'instant présent.",
+    "faqTitle": "Foire Aux Questions (FAQ)",
+    "faq1Q": "Quelle est la précision des métriques calculées ?",
+    "faq1A": "Le calculateur applique les moyennes épidémiologiques standard pour adultes. Ces valeurs fournissent une estimation statistique fidèle à vocation de découverte personnelle.",
+    "faq2Q": "Comment la distance parcourue dans l'espace est-elle calculée ?",
+    "faq2A": "Elle est établie à partir de la vitesse orbitale moyenne de la Terre autour du Soleil (~29,78 km/s, soit environ 2,57 millions de km par jour) multipliée par le nombre de jours vécus.",
+    "faq3Q": "Ma date de naissance ou mes données sont-elles conservées ?",
+    "faq3A": "Jamais. Tous les calculs s'exécutent intégralement en local dans votre navigateur. Aucune donnée n'est envoyée vers des serveurs externes.",
+    "reviewDate": "Revue Éditoriale : Novembre 2026",
+    "reviewTeam": "DopaBrain Chronobiologie & Psychologie Existentielle"
+  },
+  "nav": {
+    "back": "Accueil DopaBrain"
   }
 }

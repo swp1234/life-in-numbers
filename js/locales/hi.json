@@ -59,10 +59,22 @@
     "socialProof": "वास्तविक समय मेट्रिक्स · 100% निजी गणना"
   },
   "about": {
-    "toggle": "About Life in Numbers",
-    "heading1": "How Life in Numbers Works",
-    "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
-    "heading2": "Understanding Your Statistics",
-    "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    "toggle": "संख्याओं में आपका जीवन और जैव-गणित के बारे में",
+    "heading1": "जैव-गणित और समय-जैविक मील के पत्थर",
+    "text1": "संख्याओं में जीवन शारीरिक सांख्यिकीय औसत (विश्राम हृदय गति 70-80 धड़कन/मिनट, श्वसन दर 12-16 सांसें/मिनट, 90 मिनट का नींद चक्र) को सौर कक्षीय गतिविज्ञान के साथ जोड़ता है। आपका दिल प्रतिदिन 100,000 से अधिक बार धड़कता है, जबकि पृथ्वी आपको लगभग 29.78 किमी/सेकंड की गति से अंतरिक्ष में ले जाती है।",
+    "heading2": "समय चिंतन और कृतज्ञता का मनोविज्ञान",
+    "text2": "अमूर्त वर्षों को दिल की धड़कनों, नींद के घंटों और कदमों जैसे ठोस पैमानों में बदलना जीवन के प्रति गहरी कृतज्ञता और आत्म-जागरूकता को जन्म देता है।",
+    "faqTitle": "अक्सर पूछे जाने वाले प्रश्न (FAQ)",
+    "faq1Q": "गणना किए गए हृदय स्पंदन और सांसों के आंकड़े कितने सटीक हैं?",
+    "faq1A": "यह उपकरण मानक वयस्क नैदानिक औसतों पर आधारित है। यह व्यक्तिगत स्वास्थ्य और जीवनशैली के अनुसार भिन्न हो सकता है।",
+    "faq2Q": "अंतरिक्ष में तय की गई दूरी की गणना कैसे की जाती है?",
+    "faq2A": "सूर्य के चारों ओर पृथ्वी की कक्षीय गति (~29.78 किमी/सेकंड या प्रतिदिन लगभग 25.7 लाख किमी) को आपके कुल दिनों से गुणा करके निकाला जाता है।",
+    "faq3Q": "क्या मेरी जन्मतिथि बाहरी सर्वर पर संग्रहीत होती है?",
+    "faq3A": "बिल्कुल नहीं। सभी गणनाएं आपके ब्राउज़र में 100% स्थानीय रूप से होती हैं। कोई भी व्यक्तिगत डेटा कभी बाहर नहीं भेजा जाता।",
+    "reviewDate": "संपादकीय समीक्षा: नवंबर 2026",
+    "reviewTeam": "डोपाब्रेन समय-जीवविज्ञान एवं अस्तित्ववादी मनोविज्ञान श्रृंखला"
+  },
+  "nav": {
+    "back": "डोपाब्रेन होम"
   }
 }

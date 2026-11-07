@@ -59,10 +59,22 @@
     "socialProof": "Metrik waktu nyata · Perhitungan 100% pribadi"
   },
   "about": {
-    "toggle": "About Life in Numbers",
-    "heading1": "How Life in Numbers Works",
-    "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
-    "heading2": "Understanding Your Statistics",
-    "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    "toggle": "Tentang Hidup dalam Angka & Biomatematika",
+    "heading1": "Biomatematika dan Tonggak Kronobiologis",
+    "text1": "Hidup dalam Angka memadukan rata-rata fisiologis manusia (detak jantung istirahat 70-80 bpm, laju pernapasan 12-16 kali/menit, dan siklus tidur 90 menit) dengan mekanika orbit tata surya. Jantung Anda berdetak lebih dari 100.000 kali per hari, sementara Bumi membawa Anda menjelajah antariksa dengan kecepatan 29,78 km/detik.",
+    "heading2": "Psikologi Refleksi Waktu & 'Memento Mori'",
+    "text2": "Mengubah waktu abstrak menjadi angka nyata (jam tidur, langkah kaki, jumlah mimpi) membangkitkan rasa syukur eksistensial dan apresiasi mendalam atas kehidupan saat ini.",
+    "faqTitle": "Pertanyaan yang Sering Diajukan (FAQ)",
+    "faq1Q": "Seberapa akurat perkiraan detak jantung dan pernapasan ini?",
+    "faq1A": "Perhitungan menggunakan rata-rata populasi standar medis orang dewasa. Variasi individu wajar terjadi, dan angka ini ditujukan untuk wawasan reflektif.",
+    "faq2Q": "Bagaimana jarak perjalanan antariksa dihitung?",
+    "faq2A": "Dihitung dari kecepatan orbit Bumi mengitari Matahari (sekitar 29,78 km/detik atau 2,57 juta km per hari) dikalikan jumlah hari hidup Anda.",
+    "faq3Q": "Apakah tanggal lahir saya disimpan di server luar?",
+    "faq3A": "Tidak pernah. Semua simulasi berjalan 100% secara lokal di browser perangkat Anda tanpa transmisi data.",
+    "reviewDate": "Tinjauan Editorial: November 2026",
+    "reviewTeam": "DopaBrain Seri Kronobiologi & Psikologi Eksistensial"
+  },
+  "nav": {
+    "back": "Beranda DopaBrain"
   }
 }

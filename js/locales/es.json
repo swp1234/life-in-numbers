@@ -59,10 +59,22 @@
     "socialProof": "Métricas en tiempo real · Cálculo 100% privado"
   },
   "about": {
-    "toggle": "About Life in Numbers",
-    "heading1": "How Life in Numbers Works",
-    "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
-    "heading2": "Understanding Your Statistics",
-    "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    "toggle": "Acerca de Tu Vida en Números y Biomatemáticas",
+    "heading1": "Biomatemáticas e Hitos Cronobiológicos",
+    "text1": "Tu Vida en Números sintetiza promedios bioestadísticos empíricos (frecuencia cardíaca en reposo de 70-80 lpm, respiración de 12-16 rpm y ciclos de sueño ultradiano REM/NREM de 90 minutos) con mecánica orbital astronómica. Tu corazón late más de 100.000 veces al día mientras la Tierra te traslada por el cosmos a unos 29,78 km/s.",
+    "heading2": "Psicología de la Reflexión Cronológica y \"Memento Mori\"",
+    "text2": "Traducir el tiempo abstracto a métricas biológicas concretas (horas dormidas, pasos dados, sueños vividos) activa una perspectiva de gratitud existencial. Reflexionar sobre la escala de nuestra vida biológica promueve la atención plena y el bienestar subjetivo.",
+    "faqTitle": "Preguntas Frecuentes (FAQ)",
+    "faq1Q": "¿Qué precisión tienen las cifras biométricas calculadas?",
+    "faq1A": "El calculador utiliza promedios epidemiológicos estandarizados para adultos. Varían según el estilo de vida y la condición física de cada persona, ofreciendo una fascinante aproximación orientativa.",
+    "faq2Q": "¿Cómo se calcula la distancia espacial recorrida?",
+    "faq2A": "Se basa en la velocidad orbital media de la Tierra alrededor del Sol (~29,78 km/s o 2,57 millones de km por día) multiplicada por los días transcurridos desde tu nacimiento.",
+    "faq3Q": "¿Se almacena mi fecha de nacimiento o mis datos en servidores externos?",
+    "faq3A": "Nunca. Todos los cálculos se realizan 100% de forma local en tu navegador. Ninguna fecha se transmite ni se registra fuera de tu dispositivo.",
+    "reviewDate": "Revisión Editorial: Noviembre 2026",
+    "reviewTeam": "DopaBrain Serie de Cronobiología y Psicología Existencial"
+  },
+  "nav": {
+    "back": "Inicio DopaBrain"
   }
 }

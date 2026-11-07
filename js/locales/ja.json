@@ -59,10 +59,22 @@
     "socialProof": "リアルタイム統計 · 100%プライベート計算"
   },
   "about": {
-    "toggle": "About Life in Numbers",
-    "heading1": "How Life in Numbers Works",
-    "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
-    "heading2": "Understanding Your Statistics",
-    "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    "toggle": "人生統計（数字で見る人生）と生体時間学について",
+    "heading1": "生体数学と時間生物学的マイルストーン",
+    "text1": "本ツールは、心拍数（平均安静時70〜80回/分）、呼吸数（12〜16回/分）、レム・ノンレム睡眠サイクルなどの生理学的統計値と、地球の公転力学（秒速約29.78km、年間約9.4億kmの宇宙移動）を融合して算出しています。あなたが生きている間、心臓は毎日10万回以上鼓動し続けています。",
+    "heading2": "時間的リフレクションと「メメント・モリ」の心理学",
+    "text2": "抽象的な年月を、心拍数や歩数、睡眠時間などの具体的な身体的指標に置き換えることで、時間の有限性に対する認識と現在への感謝が深まります。マインドフルネスの観点からも、自らの生命活動のスケールを意識することは幸福感の向上につながります。",
+    "faqTitle": "よくある質問 (FAQ)",
+    "faq1Q": "表示される心拍数や呼吸数などの数値は正確ですか？",
+    "faq1A": "一般的な成人の標準的な生理学的・疫学的平均データに基づいた推計値です。個人の運動習慣や体質により変動しますが、生命の軌跡を楽しく実感するための参考値として設計されています。",
+    "faq2Q": "宇宙を旅した距離はどのように計算されていますか？",
+    "faq2A": "地球が太陽の周りを公転する平均速度（約29.78 km/s、1日あたり約257万 km）に、生まれてからの経過日数を乗算して算出しています。",
+    "faq3Q": "入力した生年月日や計算結果は外部に保存されますか？",
+    "faq3A": "一切保存されません。すべての計算はお使いの端末のブラウザ内で100%ローカルに処理され、外部サーバーに送信されることはありません。",
+    "reviewDate": "監修・編集レビュー: 2026年11月",
+    "reviewTeam": "DopaBrain 時間生物学＆実存心理学研究チーム"
+  },
+  "nav": {
+    "back": "DopaBrain ホーム"
   }
 }

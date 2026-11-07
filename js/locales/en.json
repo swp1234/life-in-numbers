@@ -60,10 +60,22 @@
     "socialProof": "Real-time Metrics · 100% Private"
   },
   "about": {
-    "toggle": "About Life in Numbers",
-    "heading1": "How Life in Numbers Works",
-    "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
-    "heading2": "Understanding Your Statistics",
-    "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    "toggle": "About Life in Numbers & Biomathematics",
+    "heading1": "Biomathematics and Chronobiological Milestones",
+    "text1": "Life in Numbers synthesizes empirical biostatistical averages (resting cardiovascular metrics ~70-80 bpm, tidal respiration ~12-16 breaths/min, and adult sleep cycles of 90-minute ultradian REM/NREM oscillations) with astronomical orbital mechanics. While your heart beats over 100,000 times a day, Earth carries you across approximately 940 million kilometers through space each year at an average velocity of 29.78 km/s.",
+    "heading2": "The Psychology of Chronological Reflection & \"Memento Mori\"",
+    "text2": "Translating abstract chronological time into concrete sensory metrics (hours slept, miles walked, dreams dreamt) activates temporal perspective framing and existential gratitude. Rooted in contemplative and mindfulness traditions, reflecting on our personal biological scale fosters deep appreciation for the present moment and enhances long-term subjective well-being.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Q": "How accurate are the calculated biometric figures?",
+    "faq1A": "The calculator uses peer-reviewed epidemiological and physiological population averages (American Heart Association resting heart rate ~70-80 bpm, tidal respiration ~12-16 breaths/min, and adult sleep distributions of 7-8 hours). Individual values naturally vary based on physical conditioning, cardiovascular health, and daily activity.",
+    "faq2Q": "How does the calculator measure cosmic distance traveled?",
+    "faq2A": "The calculation models Earth's heliocentric orbit around the Sun (~149.6 million km orbital radius, traveling at an orbital velocity of ~29.78 km/s or roughly 2.57 million km per day) multiplied by the total elapsed days since your birth.",
+    "faq3Q": "Is my date of birth or biometric calculation stored on external servers?",
+    "faq3A": "Never. All chronological calculations and physiological estimations occur 100% locally in your device's browser memory. Your birth date is never transmitted, recorded, or shared with any server.",
+    "reviewDate": "Editorial Review: November 2026",
+    "reviewTeam": "DopaBrain Chronobiology & Existential Psychology Series"
+  },
+  "nav": {
+    "back": "DopaBrain Home"
   }
 }

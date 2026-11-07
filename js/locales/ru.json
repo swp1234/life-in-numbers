@@ -59,10 +59,22 @@
     "socialProof": "Метрики в реальном времени · 100% приватный расчет"
   },
   "about": {
-    "toggle": "About Life in Numbers",
-    "heading1": "How Life in Numbers Works",
-    "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
-    "heading2": "Understanding Your Statistics",
-    "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    "toggle": "О калькуляторе «Жизнь в цифрах» и хронобиологии",
+    "heading1": "Биоматематика и хронобиологические вехи",
+    "text1": "«Жизнь в цифрах» объединяет физиологические средние показатели (пульс в покое ~70-80 уд/мин, дыхание ~12-16 циклов/мин, 90-минутные циклы сна) с законами небесной механики. Ваше сердце делает более 100 000 ударов в день, пока Земля несет вас сквозь космос со скоростью 29,78 км/с.",
+    "heading2": "Психология осознания времени и «Memento Mori»",
+    "text2": "Перевод абстрактного возраста в осязаемые показатели (часы сна, шаги, сновидения) активирует экзистенциальную благодарность и помогает глубже ценить настоящий момент.",
+    "faqTitle": "Часто задаваемые вопросы (FAQ)",
+    "faq1Q": "Насколько точны расчеты ударов сердца и вдохов?",
+    "faq1A": "Калькулятор опирается на подтвержденные популяционные медицинские нормы для взрослых. Это достоверный ориентир для вдохновляющего самопознания.",
+    "faq2Q": "Как рассчитывается космическое расстояние, пройденное с Землей?",
+    "faq2A": "Расчет основан на скорости движения Земли вокруг Солнца (~29,78 км/с или около 2,57 млн км в сутки), умноженной на количество прожитых дней.",
+    "faq3Q": "Сохраняется ли дата рождения на внешних серверах?",
+    "faq3A": "Ни в коем случае. Все вычисления производятся исключительно локально в браузере вашего устройства.",
+    "reviewDate": "Редакционный обзор: ноябрь 2026 г.",
+    "reviewTeam": "Серия исследований хронобиологии и экзистенциальной психологии DopaBrain"
+  },
+  "nav": {
+    "back": "Главная DopaBrain"
   }
 }

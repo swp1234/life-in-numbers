@@ -59,10 +59,22 @@
     "socialProof": "Gerçek zamanlı metrikler · %100 kişisel ve gizli"
   },
   "about": {
-    "toggle": "About Life in Numbers",
-    "heading1": "How Life in Numbers Works",
-    "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
-    "heading2": "Understanding Your Statistics",
-    "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    "toggle": "Rakamlarla Yaşamınız ve Biyomatematik Hakkında",
+    "heading1": "Biyomatematik ve Kronobiyolojik Dönüm Noktaları",
+    "text1": "Rakamlarla Yaşamınız, fizyolojik ortalamaları (dinlenme nabzı ~70-80 bpm, solunum sıklığı ~12-16/dk ve 90 dakikalık uyku döngüleri) yörünge mekaniğiyle birleştirir. Kalbiniz günde 100.000'den fazla atarken Dünya sizi uzayda saniyede 29,78 km hızla taşır.",
+    "heading2": "Zaman Algısı Psikolojisi ve 'Memento Mori'",
+    "text2": "Soyut yılları kalp atışı, uyku saati ve rüya gibi somut biyolojik verilere dökmek, varoluşsal farkındalık ve yaşama karşı derin bir minnettarlık hissi uyandırır.",
+    "faqTitle": "Sıkça Sorulan Sorular (FAQ)",
+    "faq1Q": "Hesaplanan nabız ve nefes verileri ne kadar doğru?",
+    "faq1A": "Hesaplama standart yetişkin nüfus ortalamalarını temel alır. Bireysel sağlık durumuna göre değişebilmekle birlikte anlamlı bir istatistiksel yaklaşım sunar.",
+    "faq2Q": "Uzayda kat edilen mesafe nasıl hesaplanıyor?",
+    "faq2A": "Dünya'nın Güneş etrafındaki ortalama yörünge hızı (saniyede 29,78 km veya günde 2,57 milyon km) ile hayatta kaldığınız gün sayısı çarpılarak bulunur.",
+    "faq3Q": "Doğum tarihim veya hesaplamalarım sunucularda saklanıyor mu?",
+    "faq3A": "Asla. Tüm hesaplamalar tamamen tarayıcınızın belleğinde yerel olarak gerçekleştirilir ve hiçbir yere aktarılmaz.",
+    "reviewDate": "Editoryal İnceleme: Kasım 2026",
+    "reviewTeam": "DopaBrain Kronobiyoloji ve Varoluşsal Psikoloji Serisi"
+  },
+  "nav": {
+    "back": "DopaBrain Ana Sayfa"
   }
 }

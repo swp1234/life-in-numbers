@@ -59,10 +59,22 @@
     "socialProof": "Echtzeit-Metriken · 100% private Berechnung"
   },
   "about": {
-    "toggle": "About Life in Numbers",
-    "heading1": "How Life in Numbers Works",
-    "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
-    "heading2": "Understanding Your Statistics",
-    "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    "toggle": "Über Dein Leben in Zahlen & Chronobiologie",
+    "heading1": "Biomathematik und chronobiologische Meilensteine",
+    "text1": "Dein Leben in Zahlen verknüpft physiologische Durchschnittswerte (Ruhepuls ~70-80 bpm, Atemfrequenz ~12-16 Züge/Min., 90-minütige Schlafzyklen) mit astronomischer Himmelsmechanik. Ihr Herz schlägt täglich über 100.000 Mal, während die Erde Sie mit ca. 29,78 km/s durch das All trägt.",
+    "heading2": "Psychologie der Zeiterfahrung & \"Memento Mori\"",
+    "text2": "Die Umwandlung abstrakter Kalenderzeit in greifbare biologische Messwerte (geschlafene Stunden, Schritte, Träume) regt existenzielle Dankbarkeit an. Das Bewusstsein für die eigene biologische Lebensreise vertieft die Achtsamkeit im Alltag.",
+    "faqTitle": "Häufig gestellte Fragen (FAQ)",
+    "faq1Q": "Wie genau sind die berechneten Vitalwerte?",
+    "faq1A": "Die Berechnungen beruhen auf anerkannten populationsstatistischen Mittelwerten gesunder Erwachsener. Individuelle Werte variieren je nach Fitness und Alltag.",
+    "faq2Q": "Wie wird die im Weltraum zurückgelegte Distanz ermittelt?",
+    "faq2A": "Die Berechnung basiert auf der Bahngeschwindigkeit der Erde um die Sonne (ca. 29,78 km/s bzw. 2,57 Mio. km pro Tag) multipliziert mit Ihren Lebenstagen.",
+    "faq3Q": "Werden mein Geburtsdatum oder meine Ergebnisse extern gespeichert?",
+    "faq3A": "Niemals. Sämtliche Kalkulationen erfolgen zu 100 % lokal in Ihrem Webbrowser. Es werden keinerlei persönliche Daten übertragen.",
+    "reviewDate": "Redaktionelle Prüfung: November 2026",
+    "reviewTeam": "DopaBrain Chronobiologie & Existenzpsychologie"
+  },
+  "nav": {
+    "back": "DopaBrain Startseite"
   }
 }

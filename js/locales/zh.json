@@ -59,10 +59,22 @@
     "socialProof": "实时生命数据 · 100%私密计算"
   },
   "about": {
-    "toggle": "About Life in Numbers",
-    "heading1": "How Life in Numbers Works",
-    "text1": "Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.",
-    "heading2": "Understanding Your Statistics",
-    "text2": "All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life."
+    "toggle": "关于数字人生统计与生物时间学",
+    "heading1": "生物数学与时间生物学里程碑",
+    "text1": "“数字人生”结合了生理学统计均值（静息心率约70-80次/分，呼吸频率约12-16次/分，成人90分钟超昼夜睡眠节律）与天体公转力学。你的心脏每天跳动超过10万次，而地球正以约29.78公里/秒的速度带你每年在太空中穿行约9.4亿公里。",
+    "heading2": "时间反思心理学与“向死而生”",
+    "text2": "将抽象的年龄转化为具体的心跳次数、呼吸量、睡眠时数和漫步里程，能激活时间感知框架与存在主义感恩。从正念心理学角度，直观审视个人生命的宏大生理刻度，有助于深化当下意识并提升长远的主观幸福感。",
+    "faqTitle": "常见问题解答 (FAQ)",
+    "faq1Q": "计算的心跳、呼吸和睡眠等生理数据准确吗？",
+    "faq1A": "本工具依据主流医学与流行病学公认的成年人平均基准进行估算。虽然个体间因体能、作息不同而存在差异，但能提供极佳的自我认知参考。",
+    "faq2Q": "在太空中穿行的宇宙旅程是如何测算的？",
+    "faq2A": "根据地球绕太阳公转的平均轨道速度（约29.78公里/秒，即每天约257万公里）乘以您出生以来的总天数计算得出。",
+    "faq3Q": "我的出生日期或人生数据会被保存在外部服务器上吗？",
+    "faq3A": "绝不。所有天数计算与生理指标模拟均在您的浏览器本地内存中执行，不会上传或记录任何个人信息。",
+    "reviewDate": "学术与编辑审阅：2026年11月",
+    "reviewTeam": "DopaBrain 时间生物学与存在心理学研究组"
+  },
+  "nav": {
+    "back": "DopaBrain 首页"
   }
 }

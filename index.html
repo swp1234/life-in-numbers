@@ -13,7 +13,7 @@
 
   <title data-i18n="meta.title">Your Life in Numbers - Birthday Statistics Calculator | DopaBrain</title>
   <meta name="description" data-i18n="meta.description" content="Enter your birthday and discover your life in fascinating numbers! How many heartbeats, breaths, steps, and dreams? Free calculator with beautiful visual stats.">
-    <meta name="dateModified" content="2026-10-24">
+    <meta name="dateModified" content="2026-11-07">
   <meta name="keywords" content="life in numbers, birthday calculator, life statistics, heartbeats counter, life calculator, dopabrain">
 
   <link rel="canonical" href="https://dopabrain.com/life-in-numbers/">
@@ -98,6 +98,39 @@
   
   
   <link rel="stylesheet" href="css/style.css">
+  <!-- FAQPage Schema -->
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+          {
+              "@type": "Question",
+              "name": "How accurate are the calculated biometric figures (heartbeats, breaths, sleep)?",
+              "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The calculator uses peer-reviewed epidemiological and physiological population averages (American Heart Association resting heart rate ~70-80 bpm, tidal respiration ~12-16 breaths/min, and adult sleep distributions of 7-8 hours). Individual values naturally vary based on physical conditioning, cardiovascular health, and daily activity."
+              }
+          },
+          {
+              "@type": "Question",
+              "name": "How does the calculator measure cosmic distance traveled?",
+              "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The calculation models Earth's heliocentric orbit around the Sun (~149.6 million km orbital radius, traveling at an orbital velocity of ~29.78 km/s or roughly 2.57 million km per day) multiplied by the total elapsed days since your birth."
+              }
+          },
+          {
+              "@type": "Question",
+              "name": "Is my date of birth or biometric calculation stored on external servers?",
+              "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Never. All chronological calculations and physiological estimations occur 100% locally in your device's browser memory. Your birth date is never transmitted, recorded, or shared with any server."
+              }
+          }
+      ]
+  }
+  </script>
 </head>
 <body>
   <a href="#main-content" class="skip-link" data-i18n="a11y.skipToContent">Skip to content</a>
@@ -181,12 +214,33 @@
   <!-- About Section -->
   <section class="about-section collapsible-section" id="about-section">
     <details>
-      <summary data-i18n="about.toggle">About Life in Numbers</summary>
+      <summary data-i18n="about.toggle" style="min-height:48px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;">About Life in Numbers & Biomathematics</summary>
       <div class="about-content">
-        <h2 data-i18n="about.heading1">How Life in Numbers Works</h2>
-        <p data-i18n="about.text1">Life in Numbers takes your birthday and calculates fascinating statistics about your life so far. From heartbeats to breaths, steps to dreams, blinks to meals, every number tells a story about the incredible journey of being alive.</p>
-        <h2 data-i18n="about.heading2">Understanding Your Statistics</h2>
-        <p data-i18n="about.text2">All numbers are approximate estimates based on scientific averages. They represent the remarkable scale of everyday bodily functions and life events that we rarely think about. This calculator is for entertainment and appreciation of life.</p>
+        <h2 data-i18n="about.heading1" style="font-size:16px;color:var(--primary,#00e5ff);margin:16px 0 8px;">Biomathematics and Chronobiological Milestones</h2>
+        <p data-i18n="about.text1" style="font-size:14px;color:#a0a0b8;line-height:1.7;">Life in Numbers synthesizes empirical biostatistical averages (resting cardiovascular metrics ~70-80 bpm, tidal respiration ~12-16 breaths/min, and adult sleep cycles of 90-minute ultradian REM/NREM oscillations) with astronomical orbital mechanics. While your heart beats over 100,000 times a day, Earth carries you across approximately 940 million kilometers through space each year at an average velocity of 29.78 km/s.</p>
+
+        <h2 data-i18n="about.heading2" style="font-size:16px;color:var(--primary,#00e5ff);margin:16px 0 8px;">The Psychology of Chronological Reflection & "Memento Mori"</h2>
+        <p data-i18n="about.text2" style="font-size:14px;color:#a0a0b8;line-height:1.7;">Translating abstract chronological time into concrete sensory metrics (hours slept, miles walked, dreams dreamt) activates temporal perspective framing and existential gratitude. Rooted in contemplative and mindfulness traditions, reflecting on our personal biological scale fosters deep appreciation for the present moment and enhances long-term subjective well-being.</p>
+
+        <h2 data-i18n="about.faqTitle" style="font-size:16px;color:var(--primary,#00e5ff);margin:20px 0 10px;">Frequently Asked Questions</h2>
+        <div class="faq-list" style="display:flex;flex-direction:column;gap:10px;">
+          <div class="faq-item" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:12px 14px;">
+            <h3 data-i18n="about.faq1Q" style="font-size:14px;font-weight:600;color:#fff;margin:0 0 6px;">Q: How accurate are the calculated biometric figures?</h3>
+            <p data-i18n="about.faq1A" style="font-size:13px;line-height:1.6;color:#a0a0b8;margin:0;">A: The calculator uses peer-reviewed epidemiological and physiological population averages (American Heart Association resting heart rate ~70-80 bpm, tidal respiration ~12-16 breaths/min, and adult sleep distributions of 7-8 hours). Individual values naturally vary based on physical conditioning, cardiovascular health, and daily activity.</p>
+          </div>
+          <div class="faq-item" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:12px 14px;">
+            <h3 data-i18n="about.faq2Q" style="font-size:14px;font-weight:600;color:#fff;margin:0 0 6px;">Q: How does the calculator measure cosmic distance traveled?</h3>
+            <p data-i18n="about.faq2A" style="font-size:13px;line-height:1.6;color:#a0a0b8;margin:0;">A: The calculation models Earth's heliocentric orbit around the Sun (~149.6 million km orbital radius, traveling at an orbital velocity of ~29.78 km/s or roughly 2.57 million km per day) multiplied by the total elapsed days since your birth.</p>
+          </div>
+          <div class="faq-item" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:12px 14px;">
+            <h3 data-i18n="about.faq3Q" style="font-size:14px;font-weight:600;color:#fff;margin:0 0 6px;">Q: Is my date of birth or biometric calculation stored on external servers?</h3>
+            <p data-i18n="about.faq3A" style="font-size:13px;line-height:1.6;color:#a0a0b8;margin:0;">A: Never. All chronological calculations and physiological estimations occur 100% locally in your device's browser memory. Your birth date is never transmitted, recorded, or shared with any server.</p>
+          </div>
+        </div>
+
+        <div class="about-review-meta" style="font-size:11px;color:#a0a0b8;margin-top:16px;padding-top:12px;border-top:1px solid rgba(255,255,255,0.1);opacity:0.8;">
+          <span data-i18n="about.reviewDate">Editorial Review: November 2026</span> • <span data-i18n="about.reviewTeam">DopaBrain Chronobiology & Existential Psychology Series</span>
+        </div>
       </div>
     </details>
   </section>
@@ -200,6 +254,10 @@
       <a href="/soul-age/" class="related-card" style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:44px;min-width:0;box-sizing:border-box;gap:6px;padding:14px 8px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:12px;text-decoration:none;color:#fff;"><span style="font-size:28px;">👴</span><span data-i18n="related.soulAge" style="font-size:12px;font-weight:600;color:#a0a0b8;text-align:center;word-break:break-word;">Soul Age</span></a>
     </div>
   </div>
+
+  <footer style="text-align:center;margin:32px 0 20px;">
+    <a href="/portal/" data-i18n="nav.back" style="color:#a0a0b8;text-decoration:none;font-size:14px;padding:8px 12px;min-height:44px;display:inline-flex;align-items:center;">DopaBrain Home</a>
+  </footer>
   <script src="/portal/js/cross-promo.js" defer></script>
   <script src="js/i18n.js"></script>
   <script src="js/app.js"></script>

@@ -43,7 +43,10 @@
     "copyLink": "링크 복사",
     "copied": "복사됨!",
     "text": "나의 인생을 숫자로 보면",
-    "cta": "당신도 확인해보세요!"
+    "cta": "당신도 확인해보세요!",
+    "saveCard": "라이프 카드 저장",
+    "saved": "카드 저장됨!",
+    "saveFailed": "카드 저장에 실패했습니다."
   },
   "related": {
     "title": "더 많은 콘텐츠",
@@ -77,5 +80,15 @@
   },
   "nav": {
     "back": "DopaBrain 홈"
+  },
+  "curated": {
+    "title": "추천 시간 · 생체리듬 도서",
+    "disclosure": "제휴 링크 포함",
+    "subtitle": "내 인생의 숫자를 오늘 하루에 대한 깊은 통찰과 균형 감각으로 연결해보세요.",
+    "cta": "도서 보기 ->",
+    "burkemanTitle": "4000주 (Four Thousand Weeks)",
+    "burkemanDesc": "올리버 버크먼 — 유한한 삶의 시간을 조바심 대신 의미로 채우는 현실적인 시간 철학.",
+    "pinkTitle": "언제 할 것인가 (When)",
+    "pinkDesc": "다니엘 핑크 — 생체시계와 하루의 리듬, 인생의 전환점을 과학적으로 읽어내는 타이밍 가이드."
   }
 }

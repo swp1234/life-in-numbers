@@ -42,7 +42,10 @@
     "copyLink": "Linki Kopyala",
     "copied": "Kopyalandi!",
     "text": "Hayatim rakamlarla",
-    "cta": "Seninkini kontrol et!"
+    "cta": "Seninkini kontrol et!",
+    "saveCard": "Yaşam Kartını Kaydet",
+    "saved": "Kart Kaydedildi!",
+    "saveFailed": "Kart kaydedilemedi."
   },
   "related": {
     "title": "Daha fazla keşfet",
@@ -76,5 +79,15 @@
   },
   "nav": {
     "back": "DopaBrain Ana Sayfa"
+  },
+  "curated": {
+    "title": "Zaman ve Kronobiyoloji Kitapları",
+    "disclosure": "İş ortaklığı bağlantıları",
+    "subtitle": "Biyometrik ve kozmik istatistiklerinizi günlerinizi nasıl değerlendirdiğinize dair içgörüye dönüştürün.",
+    "cta": "İncele ->",
+    "burkemanTitle": "Dört Bin Hafta — Oliver Burkeman",
+    "burkemanDesc": "Sınırlı insan ömrünü telaşsız, anlamlı ve bilinçli yaşama rehberi.",
+    "pinkTitle": "Ne Zaman (When) — Daniel H. Pink",
+    "pinkDesc": "Kronobiyoloji araştırmalarıyla enerji döngüleri ve yaşam dönüm noktaları."
   }
 }

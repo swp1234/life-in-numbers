@@ -43,7 +43,10 @@
     "copyLink": "Copy Link",
     "copied": "Copied!",
     "text": "My Life in Numbers",
-    "cta": "Check yours!"
+    "cta": "Check yours!",
+    "saveCard": "Save Life Card",
+    "saved": "Card Saved!",
+    "saveFailed": "Could not save card."
   },
   "related": {
     "title": "More to Explore",
@@ -77,5 +80,15 @@
   },
   "nav": {
     "back": "DopaBrain Home"
+  },
+  "curated": {
+    "title": "Recommended Chronobiology & Time Books",
+    "disclosure": "Affiliate links",
+    "subtitle": "Turn these biometric and cosmic numbers into mindful perspective on how you spend your days.",
+    "cta": "View Book ->",
+    "burkemanTitle": "Four Thousand Weeks: Time Management for Mortals",
+    "burkemanDesc": "Oliver Burkeman — Practical philosophy for embracing finite human time with clarity and calm.",
+    "pinkTitle": "When: The Scientific Secrets of Perfect Timing",
+    "pinkDesc": "Daniel H. Pink — Chronobiology research on energy cycles, milestones, and life turning points."
   }
 }

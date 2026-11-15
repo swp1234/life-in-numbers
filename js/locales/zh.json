@@ -42,7 +42,10 @@
     "copyLink": "复制链接",
     "copied": "已复制！",
     "text": "我的生命数字",
-    "cta": "查看你的！"
+    "cta": "查看你的！",
+    "saveCard": "保存生命卡片",
+    "saved": "卡片已保存！",
+    "saveFailed": "保存失败，请重试。"
   },
   "related": {
     "title": "探索更多",
@@ -76,5 +79,15 @@
   },
   "nav": {
     "back": "DopaBrain 首页"
+  },
+  "curated": {
+    "title": "推荐时间管理与生命节律书籍",
+    "disclosure": "含推广链接",
+    "subtitle": "将心跳、呼吸与宇宙轨迹的数字，化作珍视当下的生活洞察。",
+    "cta": "查看详情 ->",
+    "burkemanTitle": "《四千周》(Four Thousand Weeks)",
+    "burkemanDesc": "奥利弗·伯克曼 — 接纳有限生命时间、摆脱效率焦虑的清醒哲学。",
+    "pinkTitle": "《时机》(When)：完美时机的科学",
+    "pinkDesc": "丹尼尔·平克 — 从生物节律与里程碑心理学读懂人生的最佳节奏。"
   }
 }

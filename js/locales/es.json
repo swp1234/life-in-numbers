@@ -42,7 +42,10 @@
     "copyLink": "Copiar enlace",
     "copied": "Copiado!",
     "text": "Mi vida en numeros",
-    "cta": "Descubre la tuya!"
+    "cta": "Descubre la tuya!",
+    "saveCard": "Guardar Tarjeta",
+    "saved": "Tarjeta Guardada",
+    "saveFailed": "No se pudo guardar."
   },
   "related": {
     "title": "Explora más",
@@ -76,5 +79,15 @@
   },
   "nav": {
     "back": "Inicio DopaBrain"
+  },
+  "curated": {
+    "title": "Libros Sobre Tiempo y Cronobiología",
+    "disclosure": "Enlaces de afiliado",
+    "subtitle": "Convierte tus estadísticas vitales en perspectiva consciente sobre cómo vives cada semana.",
+    "cta": "Ver Libro ->",
+    "burkemanTitle": "Cuatro mil semanas — Oliver Burkeman",
+    "burkemanDesc": "Filosofía práctica para abrazar nuestro tiempo finito con serenidad y enfoque.",
+    "pinkTitle": "Cuándo (When) — Daniel H. Pink",
+    "pinkDesc": "La ciencia de la cronobiología aplicada a los ciclos de energía y momentos clave."
   }
 }

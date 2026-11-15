@@ -42,7 +42,10 @@
     "copyLink": "Copier le lien",
     "copied": "Copie!",
     "text": "Ma vie en chiffres",
-    "cta": "Decouvrez la votre!"
+    "cta": "Decouvrez la votre!",
+    "saveCard": "Enregistrer la Carte",
+    "saved": "Carte Enregistrée !",
+    "saveFailed": "Échec de la sauvegarde."
   },
   "related": {
     "title": "À découvrir",
@@ -76,5 +79,15 @@
   },
   "nav": {
     "back": "Accueil DopaBrain"
+  },
+  "curated": {
+    "title": "Livres sur le Temps & la Chronobiologie",
+    "disclosure": "Liens affiliés",
+    "subtitle": "Transformez ces chiffres biométriques et cosmiques en recul apaisé sur votre quotidien.",
+    "cta": "Voir le Livre ->",
+    "burkemanTitle": "Quatre mille semaines — Oliver Burkeman",
+    "burkemanDesc": "Une philosophie lucide pour habiter pleinement notre temps limité.",
+    "pinkTitle": "Le Pouvoir du Bon Moment (When) — Daniel H. Pink",
+    "pinkDesc": "La science des rythmes biologiques et des tournants de l’existence."
   }
 }

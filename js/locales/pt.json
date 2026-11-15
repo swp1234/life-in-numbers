@@ -42,7 +42,10 @@
     "copyLink": "Copiar link",
     "copied": "Copiado!",
     "text": "Minha vida em numeros",
-    "cta": "Descubra a sua!"
+    "cta": "Descubra a sua!",
+    "saveCard": "Salvar Cartão",
+    "saved": "Cartão Salvo!",
+    "saveFailed": "Não foi possível salvar."
   },
   "related": {
     "title": "Explore mais",
@@ -76,5 +79,15 @@
   },
   "nav": {
     "back": "Início DopaBrain"
+  },
+  "curated": {
+    "title": "Livros Sobre Tempo e Cronobiologia",
+    "disclosure": "Links de afiliado",
+    "subtitle": "Transforme seus números biométricos e cósmicos em clareza sobre o valor de cada dia.",
+    "cta": "Ver Livro ->",
+    "burkemanTitle": "Quatro Mil Semanas — Oliver Burkeman",
+    "burkemanDesc": "Gestão do tempo realista para viver a finitude humana com calma e propósito.",
+    "pinkTitle": "Quando (When) — Daniel H. Pink",
+    "pinkDesc": "Pesquisas de cronobiologia sobre ritmos biológicos e marcos de vida."
   }
 }

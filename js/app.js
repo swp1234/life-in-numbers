@@ -22,9 +22,9 @@
   function preserveLanguageLinks() {
     try {
       var lang = (window.i18n && window.i18n.currentLang) || new URLSearchParams(window.location.search).get('lang') || 'ko';
-      document.querySelectorAll('.related-card, a[href^="/biorhythm/"], a[href^="/bmi-calculator/"], a[href^="/future-self/"], a[href^="/soul-age/"]').forEach(function(a) {
-        var href = a.getAttribute('href');
-        if (!href || href.startsWith('/portal/')) return;
+      document.querySelectorAll('.related-card, footer a, a[href^="/biorhythm/"], a[href^="/bmi-calculator/"], a[href^="/future-self/"], a[href^="/soul-age/"]').forEach(function(a) {
+        var href = a.getAttribute('data-base-href') || a.getAttribute('href');
+        if (!href || href.startsWith('#') || href.startsWith('http')) return;
         var url = new URL(href, window.location.origin);
         if (lang) {
           url.searchParams.set('lang', lang);
@@ -163,10 +163,11 @@
     return num.toLocaleString();
   }
 
-  function animateCount(el, target, duration) {
+  function animateCount(el, target, duration, unit) {
+    const suffix = unit ? ' ' + unit : '';
     const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (prefersReduced) {
-      el.textContent = formatNumber(target);
+      el.textContent = formatNumber(target) + suffix;
       return;
     }
 
@@ -175,12 +176,11 @@
 
     function update(now) {
       const progress = Math.min((now - start) / dur, 1);
-      // Ease out cubic
       const eased = 1 - Math.pow(1 - progress, 3);
       const current = Math.floor(eased * target);
-      el.textContent = formatNumber(current);
+      el.textContent = formatNumber(current) + suffix;
       if (progress < 1) requestAnimationFrame(update);
-      else el.textContent = formatNumber(target);
+      else el.textContent = formatNumber(target) + suffix;
     }
     requestAnimationFrame(update);
   }
@@ -233,29 +233,16 @@
 
       statsGrid.appendChild(card);
 
-      // Staggered reveal + count-up
+      const revealDelay = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : idx * 100;
       setTimeout(() => {
         card.classList.add('visible');
         const valEl = card.querySelector('.stat-value');
-        animateCount(valEl, value, 1500);
-        if (stat.unit) {
-          const origFormat = formatNumber;
-          const checkUnit = setInterval(() => {
-            if (valEl.textContent && !valEl.textContent.includes(stat.unit)) {
-              // will be overwritten by animateCount
-            } else {
-              clearInterval(checkUnit);
-            }
-          }, 100);
-          // Ensure unit is appended after animation
-          setTimeout(() => {
-            if (!valEl.textContent.includes(stat.unit)) {
-              valEl.textContent = formatNumber(value) + ' ' + stat.unit;
-            }
-          }, 1600);
-        }
-      }, idx * 100);
+        animateCount(valEl, value, 1500, stat.unit);
+      }, revealDelay);
     });
+
+    lastComputedData = data;
+    renderCuratedResources();
 
     // Switch screens
     inputScreen.classList.remove('active');
@@ -263,9 +250,186 @@
     preserveLanguageLinks();
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    // GA4 event
+    // GA4 event (clean taxonomy without raw age/years leak)
     if (typeof gtag === 'function') {
-      gtag('event', 'calculate_life_numbers', { years: data.years });
+      gtag('event', 'test_complete', {
+        event_category: 'life_in_numbers',
+        app_name: 'life-in-numbers',
+        result_type: 'life_stats_profile'
+      });
+    }
+  }
+
+  let lastComputedData = null;
+
+  function getCurrentLocale() {
+    return (window.i18n && window.i18n.currentLang) || new URLSearchParams(window.location.search).get('lang') || 'ko';
+  }
+
+  function getShareUrl() {
+    return 'https://dopabrain.com/life-in-numbers/?lang=' + encodeURIComponent(getCurrentLocale()) + '&utm_source=share';
+  }
+
+  function showToast(msg) {
+    let toast = document.getElementById('lin-toast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'lin-toast';
+      toast.className = 'lin-toast';
+      document.body.appendChild(toast);
+    }
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toast._timer);
+    toast._timer = setTimeout(() => toast.classList.remove('show'), 2200);
+  }
+
+  function getAmazonDomain(lang) {
+    const map = { ja: 'amazon.co.jp', de: 'amazon.de', fr: 'amazon.fr', es: 'amazon.es', hi: 'amazon.in' };
+    return map[lang] || 'amazon.com';
+  }
+
+  function renderCuratedResources() {
+    const container = document.getElementById('curated-resources-card');
+    if (!container) return;
+    const t = (key, fb) => (window.i18n && window.i18n.initialized) ? window.i18n.t(key, fb) : fb;
+    const lang = getCurrentLocale();
+    const domain = getAmazonDomain(lang);
+    const items = [
+      {
+        key: 'fourThousandWeeks',
+        asin: '0374159122',
+        title: t('curated.burkemanTitle', 'Four Thousand Weeks: Time Management for Mortals'),
+        desc: t('curated.burkemanDesc', 'Practical philosophy for embracing finite human time with clarity and calm.')
+      },
+      {
+        key: 'whenTiming',
+        asin: '0735210624',
+        title: t('curated.pinkTitle', 'When: The Scientific Secrets of Perfect Timing'),
+        desc: t('curated.pinkDesc', 'Chronobiology research on energy cycles and life milestones.')
+      }
+    ];
+
+    container.innerHTML = `
+      <div class="curated-resources-header">
+        <h3 class="curated-resources-title">${t('curated.title', 'Recommended Chronobiology & Time Books')}</h3>
+        <span class="curated-disclosure">${t('curated.disclosure', 'Affiliate links')}</span>
+      </div>
+      <p class="curated-resources-subtitle">${t('curated.subtitle', 'Turn your biometric stats into mindful perspective on your days.')}</p>
+      <div class="curated-list">
+        ${items.map(item => `
+          <a class="curated-item" href="https://www.${domain}/dp/${item.asin}?tag=dopabrain-20" target="_blank" rel="noopener sponsored nofollow" data-resource-key="${item.key}">
+            <div class="curated-item-top">
+              <span class="curated-item-title">${item.title}</span>
+              <span class="curated-item-cta">${t('curated.cta', 'View Book ->')}</span>
+            </div>
+            <span class="curated-item-desc">${item.desc}</span>
+          </a>
+        `).join('')}
+      </div>`;
+
+    container.querySelectorAll('.curated-item').forEach(link => {
+      link.addEventListener('click', () => {
+        if (typeof gtag === 'function') {
+          gtag('event', 'curated_resource_click', {
+            app_name: 'life-in-numbers',
+            resource_key: link.getAttribute('data-resource-key'),
+            result_type: 'life_stats_profile',
+            content_locale: lang,
+            cta_surface: 'curated_resources'
+          });
+          gtag('event', 'content_cta_click', {
+            cta_type: 'curated_book',
+            destination: link.getAttribute('href'),
+            source: 'life_in_numbers'
+          });
+        }
+      });
+    });
+  }
+
+  function saveLifeCard() {
+    const canvas = document.getElementById('share-canvas');
+    if (!canvas || !lastComputedData) return;
+    const t = (key, fb) => (window.i18n && window.i18n.initialized) ? window.i18n.t(key, fb) : fb;
+    const lang = getCurrentLocale();
+    const ctx = canvas.getContext('2d');
+    canvas.width = 1080;
+    canvas.height = 1920;
+
+    const grad = ctx.createLinearGradient(0, 0, 1080, 1920);
+    grad.addColorStop(0, '#04121f');
+    grad.addColorStop(0.5, '#092238');
+    grad.addColorStop(1, '#060c1a');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, 1080, 1920);
+
+    ctx.fillStyle = 'rgba(0, 229, 255, 0.12)';
+    ctx.beginPath();
+    ctx.arc(540, 420, 320, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.fillStyle = '#00e5ff';
+    ctx.font = 'bold 34px system-ui, -apple-system, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText('DOPABRAIN · LIFE IN NUMBERS', 540, 160);
+
+    ctx.fillStyle = '#f8fafc';
+    ctx.font = 'bold 62px system-ui, -apple-system, sans-serif';
+    ctx.fillText(t('result.title', 'Your Life So Far'), 540, 280);
+
+    ctx.fillStyle = '#67e8f9';
+    ctx.font = 'bold 50px system-ui, -apple-system, sans-serif';
+    ctx.fillText(ageSummary ? ageSummary.textContent : '', 540, 370);
+
+    const highlights = ['daysAlive', 'heartbeats', 'breaths', 'sleepHours', 'dreams', 'earthDistance'];
+    highlights.forEach((key, idx) => {
+      const y = 470 + idx * 195;
+      const stat = STATS.find(s => s.key === key) || { icon: '*', unit: '' };
+      const val = lastComputedData.results[key] || 0;
+      const display = formatNumber(val) + (stat.unit ? ' ' + stat.unit : '');
+
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.06)';
+      ctx.fillRect(110, y, 860, 155);
+      ctx.strokeStyle = 'rgba(0, 229, 255, 0.35)';
+      ctx.lineWidth = 2;
+      ctx.strokeRect(110, y, 860, 155);
+
+      ctx.textAlign = 'left';
+      ctx.fillStyle = '#94a3b8';
+      ctx.font = '32px system-ui, -apple-system, sans-serif';
+      ctx.fillText(stat.icon + '  ' + getLabel(key), 150, y + 60);
+
+      ctx.fillStyle = '#00e5ff';
+      ctx.font = 'bold 56px system-ui, -apple-system, sans-serif';
+      ctx.fillText(display, 150, y + 125);
+    });
+
+    ctx.textAlign = 'center';
+    ctx.fillStyle = '#94a3b8';
+    ctx.font = '30px system-ui, -apple-system, sans-serif';
+    ctx.fillText('dopabrain.com/life-in-numbers/?lang=' + lang, 540, 1790);
+
+    try {
+      const url = canvas.toDataURL('image/png');
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'life-in-numbers-card.png';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+
+      showToast(t('share.saved', 'Card Saved!'));
+      if (typeof gtag === 'function') {
+        gtag('event', 'save_image', {
+          event_category: 'life_in_numbers',
+          app_name: 'life-in-numbers',
+          result_type: 'life_stats_profile',
+          save_surface: 'result_story_1080x1920'
+        });
+      }
+    } catch (e) {
+      showToast(t('share.saveFailed', 'Could not save card.'));
     }
   }
 
@@ -283,6 +447,12 @@
       birthdayInput.style.borderColor = '#ff4444';
       setTimeout(() => { birthdayInput.style.borderColor = ''; }, 1500);
       return;
+    }
+    if (typeof gtag === 'function') {
+      gtag('event', 'test_start', {
+        event_category: 'life_in_numbers',
+        app_name: 'life-in-numbers'
+      });
     }
     const data = calculate(birthDate);
     showResults(data);
@@ -312,13 +482,15 @@
       const value = card.querySelector('.stat-value').textContent;
       text += `${icon} ${label}: ${value}\n`;
     });
-    text += '\n' + t('share.cta', 'Check yours!') + '\nhttps://dopabrain.com/life-in-numbers/';
+    text += '\n' + t('share.cta', 'Check yours!') + '\n' + getShareUrl();
     return text;
   }
 
+  document.getElementById('save-card-btn')?.addEventListener('click', saveLifeCard);
+
   document.getElementById('share-kakao').addEventListener('click', () => {
     const text = getShareText();
-    const url = 'https://dopabrain.com/life-in-numbers/';
+    const url = getShareUrl();
     if (window.Kakao && window.Kakao.isInitialized()) {
       window.Kakao.Share.sendDefault({
         objectType: 'text',
@@ -328,28 +500,35 @@
     } else {
       window.open(`https://story.kakao.com/share?url=${encodeURIComponent(url)}`, '_blank');
     }
+    if (typeof gtag === 'function') gtag('event', 'share', { method: 'kakao', content_type: 'life_stats' });
   });
 
   document.getElementById('share-twitter').addEventListener('click', () => {
     const text = getShareText();
     window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank');
+    if (typeof gtag === 'function') gtag('event', 'share', { method: 'twitter', content_type: 'life_stats' });
   });
 
   document.getElementById('share-facebook').addEventListener('click', () => {
-    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://dopabrain.com/life-in-numbers/')}`, '_blank');
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(getShareUrl())}`, '_blank');
+    if (typeof gtag === 'function') gtag('event', 'share', { method: 'facebook', content_type: 'life_stats' });
   });
 
   document.getElementById('share-copy').addEventListener('click', () => {
     const text = getShareText();
-    navigator.clipboard.writeText(text).then(() => {
+    const t = (key, fb) => (window.i18n && window.i18n.initialized) ? window.i18n.t(key, fb) : fb;
+    const onCopied = () => {
       const btn = document.getElementById('share-copy');
-      const origHTML = btn.innerHTML;
-      const t = (key, fb) => (window.i18n && window.i18n.initialized) ? window.i18n.t(key, fb) : fb;
       btn.querySelector('span').textContent = t('share.copied', 'Copied!');
+      showToast(t('share.copied', 'Copied!'));
       setTimeout(() => {
         btn.querySelector('span').textContent = t('share.copyLink', 'Copy Link');
       }, 2000);
-    });
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(onCopied).catch(() => {});
+    }
+    if (typeof gtag === 'function') gtag('event', 'share', { method: 'copy', content_type: 'life_stats' });
   });
 
 })();

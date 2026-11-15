@@ -42,7 +42,10 @@
     "copyLink": "Link kopieren",
     "copied": "Kopiert!",
     "text": "Mein Leben in Zahlen",
-    "cta": "Schau dir deins an!"
+    "cta": "Schau dir deins an!",
+    "saveCard": "Lebenskarte Speichern",
+    "saved": "Karte Gespeichert!",
+    "saveFailed": "Speichern fehlgeschlagen."
   },
   "related": {
     "title": "Mehr entdecken",
@@ -76,5 +79,15 @@
   },
   "nav": {
     "back": "DopaBrain Startseite"
+  },
+  "curated": {
+    "title": "Bücher zu Zeit & Chronobiologie",
+    "disclosure": "Affiliate-Links",
+    "subtitle": "Verwandeln Sie Ihre biometrischen Lebenszahlen in bewusste Wertschätzung für jeden Tag.",
+    "cta": "Ansehen ->",
+    "burkemanTitle": "4000 Wochen — Oliver Burkeman",
+    "burkemanDesc": "Gelassene Zeitphilosophie für das Beste aus unserer begrenzten Lebensspanne.",
+    "pinkTitle": "When: Die Wissenschaft des perfekten Timings",
+    "pinkDesc": "Daniel H. Pink — Chronobiologie über innere Uhren, Energiezyklen und Wendepunkte."
   }
 }

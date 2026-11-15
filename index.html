@@ -13,7 +13,7 @@
 
   <title data-i18n="meta.title">Your Life in Numbers - Birthday Statistics Calculator | DopaBrain</title>
   <meta name="description" data-i18n="meta.description" content="Enter your birthday and discover your life in fascinating numbers! How many heartbeats, breaths, steps, and dreams? Free calculator with beautiful visual stats.">
-    <meta name="dateModified" content="2026-11-07">
+    <meta name="dateModified" content="2026-11-15">
   <meta name="keywords" content="life in numbers, birthday calculator, life statistics, heartbeats counter, life calculator, dopabrain">
 
   <link rel="canonical" href="https://dopabrain.com/life-in-numbers/">
@@ -187,6 +187,9 @@
         <div class="share-section">
           <h3 data-i18n="share.title">Share Your Results</h3>
           <div class="share-buttons">
+            <button class="share-btn save-card" id="save-card-btn" aria-label="Save Card">
+              <span data-i18n="share.saveCard">Save Life Card</span>
+            </button>
             <button class="share-btn kakao" id="share-kakao" aria-label="KakaoTalk">
               <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 3C6.48 3 2 6.58 2 10.9c0 2.78 1.86 5.21 4.65 6.6l-1.18 4.33c-.1.37.33.66.65.44l5.19-3.42c.23.02.45.05.69.05 5.52 0 10-3.58 10-7.9S17.52 3 12 3z"/></svg>
               <span>KakaoTalk</span>
@@ -205,6 +208,8 @@
             </button>
           </div>
         </div>
+        <canvas id="share-canvas" width="1080" height="1920" style="display:none;" aria-hidden="true"></canvas>
+        <div id="curated-resources-card" class="curated-resources"></div>
 
         <button id="retry-btn" class="btn btn-secondary" data-i18n="result.retry">Try Again</button>
       </section>
@@ -213,7 +218,7 @@
 
   <!-- About Section -->
   <section class="about-section collapsible-section" id="about-section">
-    <details>
+    <details open>
       <summary data-i18n="about.toggle" style="min-height:48px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;">About Life in Numbers & Biomathematics</summary>
       <div class="about-content">
         <h2 data-i18n="about.heading1" style="font-size:16px;color:var(--primary,#00e5ff);margin:16px 0 8px;">Biomathematics and Chronobiological Milestones</h2>
@@ -247,7 +252,7 @@
 
   <div style="max-width:420px;margin:20px auto;padding-top:20px;border-top:1px solid rgba(255,255,255,0.1);">
     <h3 data-i18n="related.title" style="font-size:16px;color:#a0a0b8;margin-bottom:12px;text-align:center;">More to Explore</h3>
-    <div style="display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:10px;">
+    <div class="related-grid" style="display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:10px;">
       <a href="/biorhythm/" class="related-card" style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:44px;min-width:0;box-sizing:border-box;gap:6px;padding:14px 8px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:12px;text-decoration:none;color:#fff;"><span style="font-size:28px;">📊</span><span data-i18n="related.biorhythm" style="font-size:12px;font-weight:600;color:#a0a0b8;text-align:center;word-break:break-word;">Biorhythm</span></a>
       <a href="/bmi-calculator/" class="related-card" style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:44px;min-width:0;box-sizing:border-box;gap:6px;padding:14px 8px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:12px;text-decoration:none;color:#fff;"><span style="font-size:28px;">📏</span><span data-i18n="related.bmiCalculator" style="font-size:12px;font-weight:600;color:#a0a0b8;text-align:center;word-break:break-word;">BMI Calculator</span></a>
       <a href="/future-self/" class="related-card" style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:44px;min-width:0;box-sizing:border-box;gap:6px;padding:14px 8px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:12px;text-decoration:none;color:#fff;"><span style="font-size:28px;">🔮</span><span data-i18n="related.futureSelf" style="font-size:12px;font-weight:600;color:#a0a0b8;text-align:center;word-break:break-word;">Future Self</span></a>

@@ -42,7 +42,10 @@
     "copyLink": "Salin Tautan",
     "copied": "Disalin!",
     "text": "Hidupku dalam Angka",
-    "cta": "Cek punyamu!"
+    "cta": "Cek punyamu!",
+    "saveCard": "Simpan Kartu Hidup",
+    "saved": "Kartu Tersimpan!",
+    "saveFailed": "Gagal menyimpan kartu."
   },
   "related": {
     "title": "Jelajahi lainnya",
@@ -76,5 +79,15 @@
   },
   "nav": {
     "back": "Beranda DopaBrain"
+  },
+  "curated": {
+    "title": "Buku Kronobiologi & Manajemen Waktu",
+    "disclosure": "Tautan afiliasi",
+    "subtitle": "Ubah angka detak jantung dan perjalanan kosmis menjadi refleksi bermakna atas waktumu.",
+    "cta": "Lihat Buku ->",
+    "burkemanTitle": "Four Thousand Weeks — Oliver Burkeman",
+    "burkemanDesc": "Filosofi praktis untuk memeluk waktu hidup yang terbatas dengan tenang dan fokus.",
+    "pinkTitle": "When: The Scientific Secrets of Perfect Timing",
+    "pinkDesc": "Daniel H. Pink — Riset kronobiologi tentang ritme tubuh dan titik balik kehidupan."
   }
 }

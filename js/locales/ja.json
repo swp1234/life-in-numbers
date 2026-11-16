@@ -13,7 +13,8 @@
     "title": "あなたの人生を数字で",
     "subtitle": "誕生日を入力して、人生を魅力的な数字で発見しましょう",
     "birthdayLabel": "生年月日",
-    "calculate": "数字を見る"
+    "calculate": "数字を見る",
+    "start": "自分の数字を見る - 無料"
   },
   "result": {
     "title": "これまでのあなたの人生",

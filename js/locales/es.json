@@ -13,7 +13,8 @@
     "title": "Tu vida en numeros",
     "subtitle": "Ingresa tu fecha de nacimiento para descubrir tu vida en numeros fascinantes",
     "birthdayLabel": "Fecha de nacimiento",
-    "calculate": "Ver mis numeros"
+    "calculate": "Ver mis numeros",
+    "start": "Ver mis números - Gratis"
   },
   "result": {
     "title": "Tu vida hasta ahora",

@@ -13,7 +13,8 @@
     "title": "你的生命数字",
     "subtitle": "输入你的生日，用迷人的数字发现你的生活",
     "birthdayLabel": "出生日期",
-    "calculate": "查看我的数字"
+    "calculate": "查看我的数字",
+    "start": "查看我的数字 - 免费"
   },
   "result": {
     "title": "你至今的人生",

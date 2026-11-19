@@ -90,5 +90,11 @@
     "burkemanDesc": "Gestão do tempo realista para viver a finitude humana com calma e propósito.",
     "pinkTitle": "Quando (When) — Daniel H. Pink",
     "pinkDesc": "Pesquisas de cronobiologia sobre ritmos biológicos e marcos de vida."
+  },
+  "nextStep": {
+    "label": "Próximo passo recomendado",
+    "title": "Arquétipo do Eu Futuro",
+    "desc": "Transforme sua reflexão de hoje em um mapa de prioridades para 10 anos em 8 perguntas.",
+    "cta": "Explorar Eu Futuro →"
   }
 }

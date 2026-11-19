@@ -90,5 +90,11 @@
     "burkemanDesc": "Oliver Burkeman — Practical philosophy for embracing finite human time with clarity and calm.",
     "pinkTitle": "When: The Scientific Secrets of Perfect Timing",
     "pinkDesc": "Daniel H. Pink — Chronobiology research on energy cycles, milestones, and life turning points."
+  },
+  "nextStep": {
+    "label": "Recommended Next Step",
+    "title": "10-Year Future Self Archetype",
+    "desc": "Turn today’s reflection into a 10-year roadmap of priorities and energy direction in 8 questions.",
+    "cta": "Explore Future Self →"
   }
 }

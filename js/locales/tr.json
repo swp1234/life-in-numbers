@@ -90,5 +90,11 @@
     "burkemanDesc": "Sınırlı insan ömrünü telaşsız, anlamlı ve bilinçli yaşama rehberi.",
     "pinkTitle": "Ne Zaman (When) — Daniel H. Pink",
     "pinkDesc": "Kronobiyoloji araştırmalarıyla enerji döngüleri ve yaşam dönüm noktaları."
+  },
+  "nextStep": {
+    "label": "Önerilen Sonraki Adım",
+    "title": "10 Yıllık Gelecekteki Ben",
+    "desc": "Bugünkü farkındalığını 8 soruda 10 yıllık öncelik haritasına dönüştür.",
+    "cta": "Gelecekteki Ben’i Keşfet →"
   }
 }

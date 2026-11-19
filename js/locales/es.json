@@ -90,5 +90,11 @@
     "burkemanDesc": "Filosofía práctica para abrazar nuestro tiempo finito con serenidad y enfoque.",
     "pinkTitle": "Cuándo (When) — Daniel H. Pink",
     "pinkDesc": "La ciencia de la cronobiología aplicada a los ciclos de energía y momentos clave."
+  },
+  "nextStep": {
+    "label": "Siguiente paso recomendado",
+    "title": "Arquetipo de tu Yo Futuro",
+    "desc": "Convierte tu reflexión de hoy en un mapa de prioridades a 10 años en 8 preguntas.",
+    "cta": "Explorar Yo Futuro →"
   }
 }
